@@ -16,7 +16,7 @@ export default function HeroContent() {
         <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
           <div className="text-center flex flex-col justify-center items-center">
             <h1 className="uppercase font-pitch font-bold tracking-[0.085em] text-white text-4xl sm:text-7xl md:text-[8.1rem]">
-              PASSAGES
+              Achat du 7 Pont-Menou
               {/* <ReactCurvedText
                 width={600}
                 height={340}
