@@ -48,9 +48,9 @@ const antiqueOlive = localFont({
   variable: "--font-antique-olive",
 })
 
-const title = "Passages - Restaurant à Rennes"
+const title = "Achat du 7 Pont-Menou"
 const desc =
-  "Passages | Restaurant à Rennes, cuisine espiègle, locale et de saison"
+  "7 Pont Menou | Projet d'habitat et lieu d'accueil à Pont-Menou"
 const keywords = ["Restaurant", "Rennes", "Cuisine locale", "Snack"]
 
 const image = "https://passages-rennes.com/logos/passages_logo.png"

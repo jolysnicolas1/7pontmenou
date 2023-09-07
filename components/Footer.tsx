@@ -48,15 +48,16 @@ const Footer = () => {
         </div>
 
         <p className="mt-10 text-center flex flex-wrap justify-center text-sm leading-5 text-slate-50">
-          Le restaurant Passages est hebergé aux{" "}
-          <Link
+            Projet d'achat du 7 Pont Menou
+          {/* Le restaurant Passages est hebergé aux{" "} */}
+          {/* <Link
             className="ml-1 hover:underline"
             href="https://www.lesateliersduvent.org/"
           >
             Ateliers du vent
-          </Link>
+          </Link> */}
         </p>
-        <p className="mt-2 text-center flex-wrap flex justify-center text-sm leading-5 text-slate-50">
+        {/* <p className="mt-2 text-center flex-wrap flex justify-center text-sm leading-5 text-slate-50">
           Le site a été construit avec{" "}
           <span>
             <HeartIcon className="mx-1 h-4 w-4 text-slate-50" />
@@ -68,7 +69,7 @@ const Footer = () => {
           >
             lasercats
           </Link>
-        </p>
+        </p> */}
       </div>
     </footer>
   )

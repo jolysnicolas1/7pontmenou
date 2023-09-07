@@ -7,7 +7,7 @@ export function cn(...inputs: ClassValue[]) {
 
 export const navigation = [
   { name: "La table & le snack", href: "#la-table" },
-  { name: "Sur mesure", href: "#sur-mesure" },
+  { name: "Le montage financier", href: "#sur-mesure" },
   { name: "Contact", href: "#contact" },
 ]
 

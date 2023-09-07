@@ -29,7 +29,7 @@ export default function Home() {
             <BellAlertIcon className="mr-2 h-4 w-4" /> Réserver
           </Link>
         }
-        title="La table des Ateliers du vent"
+        title="Le projet d'achat du 7 Pont Menou"
         titleId="la-table"
         images={[
           {
@@ -51,10 +51,10 @@ export default function Home() {
         ]}
         features={[
           {
-            name: "La table",
+            name: "Des hébergements accessibles",
             description: (
               <>
-                Du mardi au vendredi de 12h à 14h
+                Maintenir des loyers modérés au coeur d’un territoire où ils se font de plus en plus rares.
                 <br />
                 <br />
                 Cuisine espiègle, locale et de saison, boissons audacieuses et
@@ -63,7 +63,7 @@ export default function Home() {
             ),
           },
           {
-            name: "Le snack",
+            name: "S'inscrire dans la vie du village",
             description: (
               <>
                 Du mardi au vendredi de 12h à 14h.
@@ -82,11 +82,11 @@ export default function Home() {
             ),
           },
           {
-            name: "Les évenements",
+            name: "Proche de la Dérive",
             description: (
               <>
-                Autour d&apos;une scénographie, d&apos;un produit, d&apos;une
-                ambiance. Tenez-vous au courant de tous nos événements !<br />
+                C’est l’ancien bar-restaurant au coeur du village et actuellement un espace ressource pour l’association
+‘Pont Menou dans les bois’ qui gère la Dérive...<br />
                 <div className="flex space-x-2">
                   {socials.map((item, i) => {
                     if (i === 3 || i === 4) {
@@ -113,22 +113,34 @@ export default function Home() {
       />
       <Features
         reversePosition
-        title="Nos valeurs"
+        title="Pourquoi ce projet"
         text={
           <>
             <p className="mt-6 text-base sm:text-lg leading-8 text-gray-600">
-              Passages, c’est une vision de la gastronomie centrée sur le
-              dialogues des mondes, où la gastronomie rencontre la street-food,
-              la cuisine traditionnelle française puise dans des influences du
-              monde entier, l’élégance épouse la convivialité, où l’on travaille
-              avec autant de plaisir des plats végétariens que des viandes
-              d’éleveurs locaux, et où les desserts jouent d’associations
-              inattendues.
+              En premier lieu, l’idée était donc de maintenir une capacité d’hébergement à des tarifs accessibles proche
+              de la Dérive.
             </p>
             <p className="mt-6 text-base sm:text-lg leading-8 text-gray-600">
-              C’est aussi l’exigence de mettre en avant des produits de qualité,
-              locaux et de saison, un travail au plus proche des producteurs,
-              pour vous offrir le meilleur.
+              Dans un deuxième temps, ce projet s’est agrémenté de tout un tas d’idée saugrenue : que faire de tous ces
+              espaces communs, des extérieurs, des locaux attenants, du trottoir, de l’histoire de ses maisons.
+              À l’origine de la Dérive, il y a une pensée des alternatives, des ruptures, de l’autonomie. Notamment vis à
+              vis de formes maltraitantes d’institutions sociales, médicales, administratives. Au fil des hasards, des
+              arrivées, au fil des chantiers nécessaires pour que quelque chose existe, la Dérive est davantage devenu un
+              espace d’autonomie et de partage matériel, un lieu d’artisanat, artistique, un lieu de fêtes et de
+              célébrations également, soucieux du comment on construit, du comment on rassemble.
+              *le collectif a grandi dans ces énergies là et les questions de l’accueil, de l’hébergement, du refuge, n’y
+              ont pas trouvé leur place à proprement dit.
+            </p>
+            <p className="mt-6 text-base sm:text-lg leading-8 text-gray-600">
+              Le 7, ce serait alors un peu comme l’extension de la Dérive à ces envies anciennes, une histoire en
+              parallèle, une histoire de 50m où l’on pense refuge, accueil, hébergements, sans même avoir à se
+              préoccuper de la question des ateliers, de l’espace, du festif. C’est une opportunité unique de pouvoir
+              ouvrir un tel lieu dans un espace rurale, l’immense chance de pouvoir compter avec un autre collectif,
+              foisonnant, agissant, lumineux.
+            </p>
+            <p className="mt-6 text-base sm:text-lg leading-8 text-gray-600">
+              C’est trouver de l’autonomie affective, sensible, au sein d’un réseau qui choisit au mieux ses
+              dépendances.
             </p>
           </>
         }
@@ -150,7 +162,7 @@ export default function Home() {
             <UtensilsCrossed className="mr-2 h-4 w-4" /> Contactez-nous
           </a>
         }
-        title="Nos offres sur mesure"
+        title="Le montage financier"
         images={[
           { href: "/photos/offre1.jpg", alt: "Passages Rennes - offre 1" },
           { href: "/photos/offre2.jpg", alt: "Passages Rennes - offre 2" },
@@ -159,9 +171,9 @@ export default function Home() {
         ]}
         features={[
           {
-            name: "Mariages et grands évènements",
+            name: "L'association du 7 Pont Menou",
             description:
-              "Profitez de moments magiques, et laissez-vous porter.",
+              "Créer une association loi 1901 pour se porter acquéreur du 7 Pont Menou.",
           },
           {
             name: "Dîners privés",

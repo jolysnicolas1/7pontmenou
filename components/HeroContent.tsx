@@ -15,7 +15,7 @@ export default function HeroContent() {
         />
         <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
           <div className="text-center flex flex-col justify-center items-center">
-            <h1 className="uppercase font-pitch font-bold tracking-[0.085em] text-white text-4xl sm:text-7xl md:text-[8.1rem]">
+            <h1 className="uppercase font-pitch font-bold tracking-[0.085em] text-white text-2xl sm:text-4xl md:text-7xl">
               Achat du 7 Pont-Menou
               {/* <ReactCurvedText
                 width={600}
@@ -35,10 +35,10 @@ export default function HeroContent() {
               {/* /> */}
             </h1>
             <p className="mt-2 sm:text-2xl font-medium sm:leading-8 text-white">
-              aux Ateliers du vent
+              Un lieu partagé
             </p>
             <p className="sm:text-2xl font-medium sm:leading-8 text-white">
-              place Clara Zetkin Rennes
+              Entre l'habitat et l'accueil
             </p>
 
             <div className="mt-10 flex sm:flex-row flex-col items-center justify-center gap-x-4">
