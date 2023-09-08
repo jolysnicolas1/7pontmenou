@@ -1,4 +1,4 @@
-import { HeartIcon } from "@heroicons/react/24/outline"
+// import { HeartIcon } from "@heroicons/react/24/outline"
 import Link from "next/link"
 
 import { socials } from "@/lib/socials"
@@ -48,7 +48,7 @@ const Footer = () => {
         </div>
 
         <p className="mt-10 text-center flex flex-wrap justify-center text-sm leading-5 text-slate-50">
-            Projet d'achat du 7 Pont Menou
+            Projet dachat du 7 Pont Menou
           {/* Le restaurant Passages est hebergé aux{" "} */}
           {/* <Link
             className="ml-1 hover:underline"

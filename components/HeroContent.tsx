@@ -38,7 +38,7 @@ export default function HeroContent() {
               Un lieu partagé
             </p>
             <p className="sm:text-2xl font-medium sm:leading-8 text-white">
-              Entre l'habitat et l'accueil
+              Entre lhabitat et laccueil
             </p>
 
             <div className="mt-10 flex sm:flex-row flex-col items-center justify-center gap-x-4">
