@@ -6,7 +6,7 @@ export function cn(...inputs: ClassValue[]) {
 }
 
 export const navigation = [
-  { name: "La table & le snack", href: "#la-table" },
+  { name: "Le projet du 7 Pont Menou", href: "#la-table" },
   { name: "Le montage financier", href: "#sur-mesure" },
   { name: "Contact", href: "#contact" },
 ]

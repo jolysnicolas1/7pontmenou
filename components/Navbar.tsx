@@ -1,4 +1,4 @@
-import { BellAlertIcon } from "@heroicons/react/24/outline"
+// import { BellAlertIcon } from "@heroicons/react/24/outline"
 
 import { navigation, reservationLink } from "@/lib/utils"
 
@@ -50,14 +50,14 @@ const Navbar = ({ isDark }: Props) => {
           ))}
         </div>
         <div className="hidden md:flex md:flex-1 md:justify-end">
-          <a
+          {/* <a
             target="_blank"
             rel="noopener noreferrer"
             href={reservationLink}
             className={buttonVariants({ variant: "outline", size: "sm" })}
           >
             <BellAlertIcon className="mr-2 h-4 w-4" /> Réserver
-          </a>
+          </a> */}
         </div>
       </nav>
     </header>

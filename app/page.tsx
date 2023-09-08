@@ -12,23 +12,23 @@ import Offers from "@/components/Offers"
 import Slider from "@/components/Slider"
 import { buttonVariants } from "@/components/ui/button"
 import { socials } from "@/lib/socials"
-import { reservationLink } from "@/lib/utils"
+// import { reservationLink } from "@/lib/utils"
 
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between bg-gray-50 space-y-12 text-lime-950 rounded-md">
       <HeroContent />
       <Offers
-        link={
-          <Link
-            target="_blank"
-            rel="noopener noreferrer"
-            href={reservationLink}
-            className={buttonVariants({ variant: "outline", size: "lg" })}
-          >
-            <BellAlertIcon className="mr-2 h-4 w-4" /> Réserver
-          </Link>
-        }
+        // link={
+          // <Link
+          //   target="_blank"
+          //   rel="noopener noreferrer"
+          //   href={reservationLink}
+          //   className={buttonVariants({ variant: "outline", size: "lg" })}
+          // >
+          //   <BellAlertIcon className="mr-2 h-4 w-4" /> Réserver
+          // </Link>
+        // }
         title="Le projet d'achat du 7 Pont Menou"
         titleId="la-table"
         images={[
