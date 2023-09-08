@@ -1,5 +1,5 @@
 /* eslint-disable sonarjs/no-duplicate-string */
-import { BellAlertIcon } from "@heroicons/react/24/outline"
+// import { BellAlertIcon } from "@heroicons/react/24/outline"
 import { UtensilsCrossed } from "lucide-react"
 import Link from "next/link"
 
