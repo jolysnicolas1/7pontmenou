@@ -121,15 +121,27 @@ export default function Home() {
               de la Dérive.
             </p>
             <p className="mt-6 text-base sm:text-lg leading-8 text-gray-600">
-              Dans un deuxième temps, ce projet s’est agrémenté de tout un tas d’idée saugrenue : que faire de tous ces
-              espaces communs, des extérieurs, des locaux attenants, du trottoir, de l’histoire de ses maisons.
-              À l’origine de la Dérive, il y a une pensée des alternatives, des ruptures, de l’autonomie. Notamment vis à
-              vis de formes maltraitantes d’institutions sociales, médicales, administratives. Au fil des hasards, des
-              arrivées, au fil des chantiers nécessaires pour que quelque chose existe, la Dérive est davantage devenu un
-              espace d’autonomie et de partage matériel, un lieu d’artisanat, artistique, un lieu de fêtes et de
-              célébrations également, soucieux du comment on construit, du comment on rassemble.
-              *le collectif a grandi dans ces énergies là et les questions de l’accueil, de l’hébergement, du refuge, n’y
-              ont pas trouvé leur place à proprement dit.
+              Le 7, ce serait alors un peu comme l’extension de la Dérive à ces envies anciennes, une histoire en
+              parallèle, une histoire de 50m où l’on pense refuge, accueil, hébergements, sans même avoir à se
+              préoccuper de la question des ateliers, de l’espace, du festif. C’est une opportunité unique de pouvoir
+              ouvrir un tel lieu dans un espace rurale, l’immense chance de pouvoir compter avec un autre collectif,
+              foisonnant, agissant, lumineux.
+            </p>
+          </>
+        }
+        image={{
+          src: "/photos/equipe2.png",
+          alt: "Passages Rennes - qui sommes nous ? ",
+        }}
+      />
+      <Features
+        // reversePosition
+        title="Pourquoi ce projet"
+        text={
+          <>
+            <p className="mt-6 text-base sm:text-lg leading-8 text-gray-600">
+              En premier lieu, l’idée était donc de maintenir une capacité d’hébergement à des tarifs accessibles proche
+              de la Dérive.
             </p>
             <p className="mt-6 text-base sm:text-lg leading-8 text-gray-600">
               Le 7, ce serait alors un peu comme l’extension de la Dérive à ces envies anciennes, une histoire en
