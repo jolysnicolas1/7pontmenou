@@ -113,19 +113,23 @@ export default function Home() {
       />
       <Features
         reversePosition
-        title="Pourquoi ce projet"
+        title="Un peu d'histoire"
         text={
           <>
             <p className="mt-6 text-base sm:text-lg leading-8 text-gray-600">
-              En premier lieu, l’idée était donc de maintenir une capacité d’hébergement à des tarifs accessibles proche
-              de la Dérive.
+            Dans le petit hameau de Pont Menou, entre Plouégat-Guérand et Plestin-les-Grèves, deux maisons mitoyennes au 7 de la rue de Pont Menou au cœur du hameau sont en vente. L’une est l’ancien bar –restaurant du hameau. On y trouve 2 apparentements, une maison, un atelier, une buanderie et un petit local servant de miellerie actuellement et un joli jardin arboré. Les hébergements sont habités par 5 locataires, un enfant et 4 adultes, tous membres et usagers de la Dérive, juste en face.
             </p>
             <p className="mt-6 text-base sm:text-lg leading-8 text-gray-600">
-              Le 7, ce serait alors un peu comme l’extension de la Dérive à ces envies anciennes, une histoire en
-              parallèle, une histoire de 50m où l’on pense refuge, accueil, hébergements, sans même avoir à se
-              préoccuper de la question des ateliers, de l’espace, du festif. C’est une opportunité unique de pouvoir
-              ouvrir un tel lieu dans un espace rurale, l’immense chance de pouvoir compter avec un autre collectif,
-              foisonnant, agissant, lumineux.
+            La Dérive, un lieu collectif créé en 2015 par un collectif avec une pensée des alternatives, des ruptures, de l’autonomie. Aujourd’hui elle est devenue un espace de partage de matériel, un lieu d’artisanat, artistique, un lieu de fêtes, soucieux du comment on construit et on rassemble.
+            </p>
+            <p className="mt-6 text-base sm:text-lg leading-8 text-gray-600">
+            Le 7 serait alors comme une émergence des envies d’accueil, d4hébergement, de refuge qui n’a pas trouvé leur place dans le projet de la Dérive.
+            </p>
+            <p className="mt-6 text-base sm:text-lg leading-8 text-gray-600">
+            C’est une opportunité unique de pouvoir ouvrir un tel lieu dans un environnement rural, l’immense chance de pouvoir compter sur un nouveau collectif, foisonnant, agissant et lumineux.
+            </p>
+            <p className="mt-6 text-base sm:text-lg leading-8 text-gray-600">
+            L’achat de cet immeuble par le collectif permettrait de maintenir des loyers modérés au cœur d’un territoire où de tels opportunités se font rares. Ce serait aussi participer à la vie du village où on peut mettre en jeu nos réflexions autour de l’hébergement, du soin et de la santé.
             </p>
           </>
         }
@@ -136,23 +140,16 @@ export default function Home() {
       />
       <Features
         // reversePosition
-        title="Pourquoi ce projet"
+        title="Appel à dons"
         text={
           <>
             <p className="mt-6 text-base sm:text-lg leading-8 text-gray-600">
-              En premier lieu, l’idée était donc de maintenir une capacité d’hébergement à des tarifs accessibles proche
-              de la Dérive.
+            Nous réfléchissons encore aujourd’hui au montant permettant d’acquérir et de faire vivre un tel lieu, création d’une association et éventuellement d’une SCI pour l’achat.
             </p>
             <p className="mt-6 text-base sm:text-lg leading-8 text-gray-600">
-              Le 7, ce serait alors un peu comme l’extension de la Dérive à ces envies anciennes, une histoire en
-              parallèle, une histoire de 50m où l’on pense refuge, accueil, hébergements, sans même avoir à se
-              préoccuper de la question des ateliers, de l’espace, du festif. C’est une opportunité unique de pouvoir
-              ouvrir un tel lieu dans un espace rurale, l’immense chance de pouvoir compter avec un autre collectif,
-              foisonnant, agissant, lumineux.
+            Ce bien immobilier sera en vente à un prix global de 330.000 Euros. Le propriétaire accepte l’idée d’un premier versement de 200.000 Euros suivis de 7 ans avec des versements de 1500 Euros par mois, sachant que le montant des loyers actuels s’élève à 1400 Euros par mois.
             </p>
             <p className="mt-6 text-base sm:text-lg leading-8 text-gray-600">
-              C’est trouver de l’autonomie affective, sensible, au sein d’un réseau qui choisit au mieux ses
-              dépendances.
             </p>
           </>
         }
@@ -160,6 +157,89 @@ export default function Home() {
           src: "/photos/equipe2.png",
           alt: "Passages Rennes - qui sommes nous ? ",
         }}
+      />
+      <Offers
+        // link={
+          // <Link
+          //   target="_blank"
+          //   rel="noopener noreferrer"
+          //   href={reservationLink}
+          //   className={buttonVariants({ variant: "outline", size: "lg" })}
+          // >
+          //   <BellAlertIcon className="mr-2 h-4 w-4" /> Réserver
+          // </Link>
+        // }
+        title="Le montage financier"
+        titleId="la-table"
+        images={[
+          {
+            href: "/photos/dessert.jpg",
+            alt: "Passages Rennes - la table des Ateliers du Vent 2",
+          },
+          {
+            href: "/photos/Diner.jpg",
+            alt: "Passages Rennes - la table des Ateliers du Vent 3",
+          },
+          {
+            href: "/photos/Mariage.jpg",
+            alt: "Passages Rennes - la table des Ateliers du Vent 4",
+          },
+          {
+            href: "/photos/assiette.jpg",
+            alt: "Passages Rennes - la table des Ateliers du Vent 1",
+          },
+        ]}
+        features={[
+          {
+            name: "Dons à l’association",
+            description: (
+              <>
+                C’est la forme la plus avantageuse pour le projet puisqu’ils sont considérés comme définitifs. Ces dons peuvent faire l’objet d’une réduction d’impôts.
+              </>
+            ),
+          },
+          {
+            name: "Les prêts à l’association",
+            description: (
+              <>
+Les prêts sont faits à l’association –en cours de constitution – et seront remboursés selon les termes qui pourront soit :               <br />
+                <br />
+                - Etre explicites dans un contrat faisant office de reconnaissance de dette avec un échéancier de remboursement
+                <br />
+                <br />
+                - Faire l’objet d’un accord oral entre le prêteur et l’association
+              </>
+            ),
+          },
+          {
+            name: "Parts dans la SCI",
+            description: (
+              <>
+                C’est l’ancien bar-restaurant au coeur du village et actuellement un espace ressource pour l’association
+‘Pont Menou dans les bois’ qui gère la Dérive...<br />
+                <div className="flex space-x-2">
+                  {socials.map((item, i) => {
+                    if (i === 3 || i === 4) {
+                      return (
+                        <Link
+                          key={item.name}
+                          href={item.href}
+                          className="text-black hover:underline mt-2"
+                        >
+                          <span className="sr-only">{item.name}</span>
+                          <item.icon
+                            className="h-6 w-6 text-gray-700"
+                            aria-hidden="true"
+                          />
+                        </Link>
+                      )
+                    }
+                  })}
+                </div>
+              </>
+            ),
+          },
+        ]}
       />
 
       <Banner />
