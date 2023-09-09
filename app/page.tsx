@@ -44,10 +44,6 @@ export default function Home() {
             href: "/photos/bar.jpeg",
             alt: "Passages Rennes - la table des Ateliers du Vent 4",
           },
-          {
-            href: "/photos/assiette.jpg",
-            alt: "Passages Rennes - la table des Ateliers du Vent 1",
-          },
         ]}
         features={[
           {
@@ -321,8 +317,8 @@ Les prêts sont faits à l’association –en cours de constitution – et sero
           </>
         }
         image={{
-          src: "/photos/contact.jpg",
-          alt: "Passages Rennes - qui nous sommes ?",
+          src: "/photos/contact.png",
+          alt: "Pont menou satelite",
         }}
       />
 

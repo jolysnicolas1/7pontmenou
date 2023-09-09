@@ -1,5 +1,5 @@
 import { BellAlertIcon } from "@heroicons/react/24/outline"
-import { Map, PhoneCall } from "lucide-react"
+import { Map } from "lucide-react"
 import React from "react"
 
 import { reservationLink } from "@/lib/utils"
@@ -12,12 +12,12 @@ const BottomButtons = () => {
       // eslint-disable-next-line @typescript-eslint/no-explicit-any
       icon: (props: any) => <Map {...props} />,
     },
-    {
-      name: "Appeler",
-      href: "tel:0651961494",
-      // eslint-disable-next-line @typescript-eslint/no-explicit-any
-      icon: (props: any) => <PhoneCall {...props} />,
-    },
+    // {
+    //   name: "Appeler",
+    //   href: "tel:0651961494",
+    //   // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    //   icon: (props: any) => <PhoneCall {...props} />,
+    // },
     {
       name: "Réserver",
       href: reservationLink,

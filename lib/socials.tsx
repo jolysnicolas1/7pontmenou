@@ -1,4 +1,4 @@
-import { Mail, Map, PhoneCall } from "lucide-react"
+import { Mail, Map } from "lucide-react"
 
 export const socials = [
   {
