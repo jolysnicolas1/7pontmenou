@@ -154,6 +154,10 @@ export default function Home() {
           alt: "",
         }}
       />
+      
+      <Banner />
+
+
       <Offers
         // link={
           // <Link
@@ -165,24 +169,25 @@ export default function Home() {
           //   <BellAlertIcon className="mr-2 h-4 w-4" /> Réserver
           // </Link>
         // }
+        reversePosition
         title="Le montage financier"
         titleId="la-table"
         images={[
           {
-            href: "/photos/dessert.jpg",
-            alt: "Passages Rennes - la table des Ateliers du Vent 2",
+            href: "/photos/facade.jpeg",
+            alt: "",
           },
           {
-            href: "/photos/Diner.jpg",
-            alt: "Passages Rennes - la table des Ateliers du Vent 3",
+            href: "/photos/facade.jpeg",
+            alt: "",
           },
           {
-            href: "/photos/Mariage.jpg",
-            alt: "Passages Rennes - la table des Ateliers du Vent 4",
+            href: "/photos/facade.jpeg",
+            alt: "",
           },
           {
-            href: "/photos/assiette.jpg",
-            alt: "Passages Rennes - la table des Ateliers du Vent 1",
+            href: "/photos/facade.jpeg",
+            alt: "",
           },
         ]}
         features={[
@@ -238,53 +243,6 @@ Les prêts sont faits à l’association –en cours de constitution – et sero
         ]}
       />
 
-      <Banner />
-      <Offers
-        titleId="sur-mesure"
-        reversePosition
-        link={
-          <a
-            href="/#contact"
-            className={buttonVariants({ variant: "outline", size: "lg" })}
-          >
-            <UtensilsCrossed className="mr-2 h-4 w-4" /> Contactez-nous
-          </a>
-        }
-        title="Le montage financier"
-        images={[
-          { href: "/photos/offre1.jpg", alt: "Passages Rennes - offre 1" },
-          { href: "/photos/offre2.jpg", alt: "Passages Rennes - offre 2" },
-          { href: "/photos/offre3.jpg", alt: "Passages Rennes - offre 3" },
-          { href: "/photos/offre4.jpg", alt: "Passages Rennes - offre 4" },
-        ]}
-        features={[
-          {
-            name: "L'association du 7 Pont Menou",
-            description:
-              "Créer une association loi 1901 pour se porter acquéreur du 7 Pont Menou.",
-          },
-          {
-            name: "Dîners privés",
-            description:
-              "Mettez-vous à l’aise, et laissez-nous organiser une prestation gastronomique hors du commun dans un cadre familier.",
-          },
-          {
-            name: "Privatisations",
-            description: (
-              <>
-                Vous cherchez un endroit magique pour accueillir votre événement
-                ? Nous mettons nos équipes et notre lieu à votre disposition.{" "}
-                <a
-                  className="underline"
-                  href="https://form.heeds.eu/registration/10469/8afd3a9105968cd111197e9f3934a168"
-                >
-                  C&rsquo;est par ici!
-                </a>
-              </>
-            ),
-          },
-        ]}
-      />
 
       <Slider />
 
