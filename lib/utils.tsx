@@ -6,8 +6,9 @@ export function cn(...inputs: ClassValue[]) {
 }
 
 export const navigation = [
-  { name: "Le projet du 7 Pont Menou", href: "#la-table" },
-  { name: "Le montage financier", href: "#sur-mesure" },
+  { name: "Le projet du 7 Pont Menou", href: "#projet" },
+  { name: "L'appel à dons", href: "#appel-a-dons" },
+  { name: "Un peu d'histoire", href: "#historique" },
   { name: "Contact", href: "#contact" },
 ]
 

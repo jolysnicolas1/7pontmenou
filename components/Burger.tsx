@@ -3,15 +3,15 @@
 import { Dialog } from "@headlessui/react"
 import {
   Bars3Icon,
-  BellAlertIcon,
+  // BellAlertIcon,
   XMarkIcon,
 } from "@heroicons/react/24/outline"
 import Link from "next/link"
 import { useState } from "react"
 
-import { navigation, reservationLink } from "@/lib/utils"
+import { navigation } from "@/lib/utils"
 
-import { buttonVariants } from "./ui/button"
+// import { buttonVariants } from "./ui/button"
 
 type Props = {
   isDark?: boolean
@@ -69,7 +69,7 @@ const Burger = ({ isDark }: Props) => {
                 ))}
               </div>
               <div className="py-6">
-                <Link
+                {/* <Link
                   onClick={() => setMobileMenuOpen(false)}
                   target="_blank"
                   rel="noopener noreferrer"
@@ -77,7 +77,7 @@ const Burger = ({ isDark }: Props) => {
                   className={buttonVariants({ variant: "outline", size: "lg" })}
                 >
                   <BellAlertIcon className="mr-2 h-4 w-4" /> Réserver une table
-                </Link>
+                </Link> */}
               </div>
             </div>
           </div>

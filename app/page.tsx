@@ -30,7 +30,7 @@ export default function Home() {
           // </Link>
         // }
         title="Le projet d'achat du 7 Pont Menou"
-        titleId="la-table"
+        titleId="projet"
         images={[
           {
             href: "/photos/facade.jpeg",
@@ -110,6 +110,7 @@ export default function Home() {
       <Features
         reversePosition
         title="Un peu d'histoire"
+        titleId="historique"
         text={
           <>
             <p className="mt-6 text-base sm:text-lg leading-8 text-gray-600">
@@ -136,7 +137,8 @@ export default function Home() {
       />
       <Features
         // reversePosition
-        title="Appel à dons"
+        title="Appel à dons ✨"
+        titleId="appel-a-dons"
         text={
           <>
             <p className="mt-6 text-base sm:text-lg leading-8 text-gray-600">
@@ -154,7 +156,7 @@ export default function Home() {
           alt: "",
         }}
       />
-      
+
       <Banner />
 
 
@@ -202,13 +204,8 @@ export default function Home() {
           {
             name: "Les prêts à l’association",
             description: (
-              <>
-Les prêts sont faits à l’association –en cours de constitution – et seront remboursés selon les termes qui pourront soit :               <br />
-                <br />
-                - Etre explicites dans un contrat faisant office de reconnaissance de dette avec un échéancier de remboursement
-                <br />
-                <br />
-                - Faire l’objet d’un accord oral entre le prêteur et l’association
+              <>    
+Les prêts sont faits à l’association –en cours de constitution – et seront remboursés selon les termes qui pourront     soit :               
               </>
             ),
           },

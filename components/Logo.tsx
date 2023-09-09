@@ -1,12 +1,12 @@
-import Image from "next/image"
+// import Image from "next/image"
 
 const Logo = () => {
   const logos = [
-    { src: "/logos/adv.png", alt: "Camille Dupont", altbis: "de Sonn ar men", quote: "Le 7 c'est top !" },
-    { src: "/logos/france-tv.png", alt: "Camille Dupont", altbis: "de malXX", quote: "Le 7 c'est top ! Le 7 c'est top ! Le 7 c'est top ! Le 7 c'est top ! "  },
-    { src: "/logos/tombees-de-la-nuit.png", alt: "Camille Dupont", altbis: "Du planning familiale", quote: "Blabla blaLe 7 c'est top !"  },
-    { src: "/logos/lacriee-logo.png", alt: "Camille Dupont", altbis: "Habitant de Pont Menou", quote: "Blabla blaBlabla blaBlabla blaLe 7 c'est top !"  },
-    { src: "/logos/conf.png", alt: "Camille Dupont", altbis: "de La Dérive", quote: "Le 7 c'est top ! Blabla blaBlabla blaBlabla blaBlabla blaBlabla bla"  },
+    { src: "/logos/adv.png", alt: "Camille Duponta", altbis: "de Sonn ar men", quote: "Le 7 c'est top !" },
+    { src: "/logos/france-tv.png", alt: "Camille Dupontb", altbis: "de malXX", quote: "Le 7 c'est top ! Le 7 c'est top ! Le 7 c'est top ! Le 7 c'est top ! "  },
+    { src: "/logos/tombees-de-la-nuit.png", alt: "Camille Dupontc", altbis: "Du planning familiale", quote: "Blabla blaLe 7 c'est top !"  },
+    { src: "/logos/lacriee-logo.png", alt: "Camille Dupontd", altbis: "Habitant de Pont Menou", quote: "Blabla blaBlabla blaBlabla blaLe 7 c'est top !"  },
+    { src: "/logos/conf.png", alt: "Camille Duponte", altbis: "de La Dérive", quote: "Le 7 c'est top ! Blabla blaBlabla blaBlabla blaBlabla blaBlabla bla"  },
   ]
   return (
     <div className="py-24 sm:py-32">
