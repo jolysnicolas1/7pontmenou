@@ -33,15 +33,15 @@ export default function Home() {
         titleId="la-table"
         images={[
           {
-            href: "/photos/dessert.jpg",
+            href: "/photos/facade.jpeg",
             alt: "Passages Rennes - la table des Ateliers du Vent 2",
           },
           {
-            href: "/photos/Diner.jpg",
+            href: "/photos/pontmenou.jpeg",
             alt: "Passages Rennes - la table des Ateliers du Vent 3",
           },
           {
-            href: "/photos/Mariage.jpg",
+            href: "/photos/bar.jpeg",
             alt: "Passages Rennes - la table des Ateliers du Vent 4",
           },
           {
@@ -119,7 +119,7 @@ export default function Home() {
             <p className="mt-6 text-base sm:text-lg leading-8 text-gray-600">
             Dans le petit hameau de Pont Menou, entre Plouégat-Guérand et Plestin-les-Grèves, deux maisons mitoyennes au 7 de la rue de Pont Menou au cœur du hameau sont en vente. L’une est l’ancien bar –restaurant du hameau. On y trouve 2 apparentements, une maison, un atelier, une buanderie et un petit local servant de miellerie actuellement et un joli jardin arboré. Les hébergements sont habités par 5 locataires, un enfant et 4 adultes, tous membres et usagers de la Dérive, juste en face.
             </p>
-            <p className="mt-6 text-base sm:text-lg leading-8 text-gray-600">
+            {/* <p className="mt-6 text-base sm:text-lg leading-8 text-gray-600">
             La Dérive, un lieu collectif créé en 2015 par un collectif avec une pensée des alternatives, des ruptures, de l’autonomie. Aujourd’hui elle est devenue un espace de partage de matériel, un lieu d’artisanat, artistique, un lieu de fêtes, soucieux du comment on construit et on rassemble.
             </p>
             <p className="mt-6 text-base sm:text-lg leading-8 text-gray-600">
@@ -130,12 +130,12 @@ export default function Home() {
             </p>
             <p className="mt-6 text-base sm:text-lg leading-8 text-gray-600">
             L’achat de cet immeuble par le collectif permettrait de maintenir des loyers modérés au cœur d’un territoire où de tels opportunités se font rares. Ce serait aussi participer à la vie du village où on peut mettre en jeu nos réflexions autour de l’hébergement, du soin et de la santé.
-            </p>
+            </p> */}
           </>
         }
         image={{
-          src: "/photos/equipe2.png",
-          alt: "Passages Rennes - qui sommes nous ? ",
+          src: "/photos/pontmenou.jpeg",
+          alt: "",
         }}
       />
       <Features
@@ -154,8 +154,8 @@ export default function Home() {
           </>
         }
         image={{
-          src: "/photos/equipe2.png",
-          alt: "Passages Rennes - qui sommes nous ? ",
+          src: "/photos/facade.jpeg",
+          alt: "",
         }}
       />
       <Offers
