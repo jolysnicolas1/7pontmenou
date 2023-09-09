@@ -19,7 +19,7 @@ export default function Banner() {
               href="/#contact"
               className={buttonVariants({ variant: "outline", size: "xl" })}
             >
-              <HandRaisedIcon className="mr-2 h-4 w-4" /> Cagnote en ligne
+              <HandRaisedIcon className="mr-2 h-4 w-4" /> Promesse de don ou de prêt
             </a>
           </div>
         </div>

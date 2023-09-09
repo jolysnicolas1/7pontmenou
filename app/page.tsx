@@ -1,6 +1,6 @@
 /* eslint-disable sonarjs/no-duplicate-string */
 // import { BellAlertIcon } from "@heroicons/react/24/outline"
-import { UtensilsCrossed } from "lucide-react"
+// import { UtensilsCrossed } from "lucide-react"
 import Link from "next/link"
 
 import Banner from "@/components/Banner"
@@ -10,7 +10,7 @@ import HeroContent from "@/components/HeroContent"
 import Logo from "@/components/Logo"
 import Offers from "@/components/Offers"
 import Slider from "@/components/Slider"
-import { buttonVariants } from "@/components/ui/button"
+// import { buttonVariants } from "@/components/ui/button"
 import { socials } from "@/lib/socials"
 // import { reservationLink } from "@/lib/utils"
 
@@ -42,6 +42,10 @@ export default function Home() {
           },
           {
             href: "/photos/bar.jpeg",
+            alt: "Passages Rennes - la table des Ateliers du Vent 4",
+          },
+          {
+            href: "/photos/trois.jpeg",
             alt: "Passages Rennes - la table des Ateliers du Vent 4",
           },
         ]}
@@ -180,15 +184,15 @@ export default function Home() {
             alt: "",
           },
           {
-            href: "/photos/facade.jpeg",
+            href: "/photos/trois.jpeg",
             alt: "",
           },
           {
-            href: "/photos/facade.jpeg",
+            href: "/photos/bar.jpeg",
             alt: "",
           },
           {
-            href: "/photos/facade.jpeg",
+            href: "/photos/pontmenou.jpeg",
             alt: "",
           },
         ]}
