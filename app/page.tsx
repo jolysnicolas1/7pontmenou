@@ -86,7 +86,7 @@ export default function Home() {
             description: (
               <>
                 C’est l’ancien bar-restaurant au coeur du village et actuellement un espace ressource pour l’association
-‘Pont Menou dans les bois’ qui gère la Dérive...<br />
+                ‘Pont Menou dans les bois’ qui gère la Dérive...<br />
                 <div className="flex space-x-2">
                   {socials.map((item, i) => {
                     if (i === 3 || i === 4) {
@@ -175,9 +175,10 @@ export default function Home() {
           //   <BellAlertIcon className="mr-2 h-4 w-4" /> Réserver
           // </Link>
         // }
+        className="bg-gray-50"
         reversePosition
         title="Le montage financier"
-        titleId="la-table"
+        titleId="montage-financier"
         images={[
           {
             href: "/photos/facade.jpeg",
@@ -218,7 +219,7 @@ Les prêts sont faits à l’association –en cours de constitution – et sero
             description: (
               <>
                 C’est l’ancien bar-restaurant au coeur du village et actuellement un espace ressource pour l’association
-‘Pont Menou dans les bois’ qui gère la Dérive...<br />
+                ‘Pont Menou dans les bois’ qui gère la Dérive...<br />
                 <div className="flex space-x-2">
                   {socials.map((item, i) => {
                     if (i === 3 || i === 4) {

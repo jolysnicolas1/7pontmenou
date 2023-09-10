@@ -7,6 +7,7 @@ type Props = {
   link?: React.ReactNode
   reversePosition?: boolean
   titleId: string
+  
 }
 
 export default function Offers({
@@ -18,7 +19,10 @@ export default function Offers({
   reversePosition,
 }: Props) {
   return (
-    <div className="bg-transparent">
+    <div className=""
+         id={titleId}
+    >
+
       <div className="mx-auto grid max-w-2xl grid-cols-1 items-center gap-x-8 gap-y-16 px-4 lg:py-24 sm:px-6 sm:py-12 lg:max-w-7xl lg:grid-cols-2 lg:px-8">
         <div
           className={`pl-5 ${
@@ -27,7 +31,6 @@ export default function Offers({
         >
           <div>
             <h2
-              id={titleId}
               className="text-3xl font-medium tracking-tight text-gray-900 sm:text-4xl mb-4 font-serif"
             >
               {title}

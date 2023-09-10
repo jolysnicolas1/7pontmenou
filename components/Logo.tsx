@@ -27,7 +27,7 @@ const Logo = () => {
                 width={316 * 2}
                 height={96 * 2}
               /> */}
-              <p className="text-sm text-center mt-6">"{logo.quote}"</p>
+              {/* <p className="text-sm text-center mt-6">"{logo.quote}"</p> */}
               <p className="text-sm text-center mt-6">{logo.alt}</p>
               <p className="uppercase text-sm text-center mt-6 text-gray-400">{logo.altbis}</p>
             </div>

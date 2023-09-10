@@ -67,7 +67,7 @@ export const metadata = {
     type: "website",
     title: title,
     description: desc,
-    url: "https://passages-rennes.com",
+    url: "https://7pontmenou.org",
   },
   twitter: {
     card: "summary_large_image",
