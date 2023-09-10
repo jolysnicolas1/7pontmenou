@@ -6,7 +6,7 @@ const Logo = () => {
     { src: "/logos/france-tv.png", alt: "Camille Dupontb", altbis: "de malXX", quote: "Le 7 cest top ! Le 7 cest top ! Le 7 cest top ! Le 7 cest top ! "  },
     { src: "/logos/tombees-de-la-nuit.png", alt: "Camille Dupontc", altbis: "Du planning familiale", quote: "Blabla blaLe 7 cest top !"  },
     { src: "/logos/lacriee-logo.png", alt: "Camille Dupontd", altbis: "Habitant de Pont Menou", quote: "Blabla blaBlabla blaBlabla blaLe 7 cest top !"  },
-    { src: "/logos/conf.png", alt: "Camille Duponte", altbis: "de La Dérive", quote: "Le 7 cest top ! Blabla blaBlabla blaBlabla blaBlabla blaBlabla bla"  },
+    { src: "/logos/conf.png", alt: "Camille Duponte", altbis: "de La Dérive", quote: "Le 7 cest top ! Blabla blaBlabla blaBlabla blaBlabla blaBlabla bla test"  },
   ]
   return (
     <div className="py-24 sm:py-32">
