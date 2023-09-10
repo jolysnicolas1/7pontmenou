@@ -175,7 +175,6 @@ export default function Home() {
           //   <BellAlertIcon className="mr-2 h-4 w-4" /> Réserver
           // </Link>
         // }
-        className="bg-gray-50"
         reversePosition
         title="Le montage financier"
         titleId="montage-financier"
