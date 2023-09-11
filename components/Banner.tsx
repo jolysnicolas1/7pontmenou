@@ -1,6 +1,7 @@
 import { HandRaisedIcon } from "@heroicons/react/24/outline"
 
 import { buttonVariants } from "./ui/button"
+import { reservationLink } from "@/lib/utils"
 
 export default function Banner() {
   return (
@@ -16,7 +17,7 @@ export default function Banner() {
           </p> */}
           <div className="mt-10 flex items-center justify-center gap-x-6">
             <a
-              href="/#contact"
+              href={reservationLink}
               className={buttonVariants({ variant: "outline", size: "xl" })}
             >
               <HandRaisedIcon className="mr-2 h-4 w-4" /> Promesse de don ou de prêt

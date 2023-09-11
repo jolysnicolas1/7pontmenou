@@ -1,4 +1,8 @@
 import Image from "next/image"
+import Link from "next/link"
+import { buttonVariants } from "./ui/button"
+import { reservationLink } from "@/lib/utils"
+import { BellAlertIcon } from "@heroicons/react/24/outline"
 
 import heroImg from "../public/photos/hero.jpeg"
 
@@ -42,21 +46,15 @@ export default function HeroContent() {
             </p>
 
             <div className="mt-10 flex sm:flex-row flex-col items-center justify-center gap-x-4">
-              {/* <Link
+              <Link
                 target="_blank"
                 rel="noopener noreferrer"
                 href={reservationLink}
-                className={buttonVariants({ variant: "outline", size: "xl" })}
+                className={buttonVariants({ variant: "cta", size: "xl" })}
               >
                 <BellAlertIcon className="mr-2 h-4 w-4 sm:h-5 sm:w-5 sm:mr-3" />{" "}
-                Réserver
-              </Link> */}
-              {/* <Link
-                href="/#sur-mesure"
-                className={buttonVariants({ variant: "whiteLink", size: "xl" })}
-              >
-                Vos évènements <span aria-hidden="true"> →</span>
-              </Link> */}
+                  Promesse de don ou de prêt
+              </Link>
             </div>
           </div>
         </div>

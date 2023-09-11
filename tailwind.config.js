@@ -31,6 +31,7 @@ module.exports = {
         orange: "#FF773D",
         myGreen: "#3fa535",
         myYellow: "#ffe596",
+        myGreen: "#B4DCB4",
       },
       keyframes: {
         "accordion-down": {

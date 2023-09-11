@@ -14,4 +14,4 @@ export const navigation = [
 ]
 
 export const reservationLink =
-  "https://ib.guestonline.fr/instabook/bookings/lTtWuZ3"
+  "https://7pontmenou.org"
