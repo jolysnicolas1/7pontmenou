@@ -7,7 +7,7 @@ import Banner from "@/components/Banner"
 import BottomButtons from "@/components/BottomButtons"
 import Features from "@/components/Features"
 import HeroContent from "@/components/HeroContent"
-import Logo from "@/components/Logo"
+// import Logo from "@/components/Logo"
 import Offers from "@/components/Offers"
 import Slider from "@/components/Slider"
 // import { buttonVariants } from "@/components/ui/button"
@@ -157,6 +157,31 @@ export default function Home() {
           alt: "",
         }}
       />
+      <Features
+        // reversePosition
+        title="On imagine le lieu 🏠"
+        titleId="appel-a-dons"
+        text={
+          <>
+            <p className="mt-6 text-base sm:text-lg leading-8 text-gray-600">
+              Nous avons fait une liste des multiples destinations possibles du lieu: hébergement avec maintien de loyers modérés, hébergements transitoires ou d&apos;urgence, refuge/repos, séjours de rupture ou de vacances parce que c&apos;est chouette de pouvoir voir la mer de temps en temps.
+            </p>
+
+            <p className="mt-6 text-base sm:text-lg leading-8 text-gray-600">
+              Dans les espaces communs: faire revivre l&apos;ancien bar-restaurant de Pont Menou (des cantines, un bar asso, un espace d&apos;accueil de jour où boire un café...), une buanderie qui pourrait servir collectivement, une vidéothèque médiathèque (le temps de faire sa lessive!), un jardin collectif, des ateliers cuisine, un coiffeur prix libre.
+            </p>
+
+            <p className="mt-6 text-base sm:text-lg leading-8 text-gray-600">
+              Et autour des questions de santé, un espace ouvert pour nourrir nos interventions et nos réflexions sur les questions de solidarité, de soin, de santé. Un accueil de jour, un centre de santé, des cabinets pour des praticiens, un centre d&apos;info et de ressources autour de questions du soin en général, d&apos;auto-défense administrative, un lieu pour organiser des interventions au sein de l&apos;institution ou pourquoi pas une future maison de retraite...
+            </p>
+
+          </>
+        }
+        image={{
+          src: "/photos/masse.jpeg",
+          alt: "",
+        }}
+      />
 
       <Banner />
 
@@ -174,6 +199,7 @@ export default function Home() {
         // }
         reversePosition
         title="Le montage financier"
+        intro="Le montage financier"
         titleId="montage-financier"
         images={[
           {
@@ -244,7 +270,7 @@ Les prêts sont faits à l’association –en cours de constitution – et sero
 
       <Slider />
 
-      <Logo />
+      {/* <Logo /> */}
 
       <Features
         titleId="contact"

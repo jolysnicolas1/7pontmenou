@@ -8,15 +8,12 @@ import { Swiper, SwiperSlide } from "swiper/react"
 
 const images = [
   "/photos/pm_rue.png",
-  "/photos/portfolio9.jpg",
-  "/photos/portfolio7.jpg",
 ]
 
 export default function Slider() {
   return (
     <div className="bg-transparent max-w-7xl mx-auto">
       <h2 className="mt-2 text-center pb-16 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl font-serif">
-        Quelques photos
       </h2>
       <Swiper
         slidesPerView={1.2}
