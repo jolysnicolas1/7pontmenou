@@ -1,7 +1,8 @@
 import { HandRaisedIcon } from "@heroicons/react/24/outline"
 
-import { buttonVariants } from "./ui/button"
 import { reservationLink } from "@/lib/utils"
+
+import { buttonVariants } from "./ui/button"
 
 export default function Banner() {
   return (

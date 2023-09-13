@@ -1,10 +1,11 @@
+import { BellAlertIcon } from "@heroicons/react/24/outline"
 import Image from "next/image"
 import Link from "next/link"
-import { buttonVariants } from "./ui/button"
+
 import { reservationLink } from "@/lib/utils"
-import { BellAlertIcon } from "@heroicons/react/24/outline"
 
 import heroImg from "../public/photos/hero.jpeg"
+import { buttonVariants } from "./ui/button"
 
 export default function HeroContent() {
   return (
