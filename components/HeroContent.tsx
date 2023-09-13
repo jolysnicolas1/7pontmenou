@@ -18,7 +18,7 @@ export default function HeroContent() {
           alt="Passage rennes - gastronomie sur mesure"
           className="absolute inset-0 opacity-50 -z-10 h-full w-full object-cover"
         />
-        <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
+        <div className="mx-auto max-w-4xl py-32 sm:py-48 lg:py-56">
           <div className="text-center flex flex-col justify-center items-center">
             <h1 className="uppercase font-pitch font-bold tracking-[0.085em] text-white text-2xl sm:text-4xl md:text-7xl">
               Achat du 7 Pont-Menou
@@ -46,7 +46,7 @@ export default function HeroContent() {
               Entre lhabitat et laccueil
             </p>
 
-            <div className="mt-10 flex sm:flex-row flex-col items-center justify-center gap-x-4">
+            <div className="m-10 flex sm:flex-row flex-col items-center justify-center gap-x-4">
               <Link
                 target="_blank"
                 rel="noopener noreferrer"
@@ -60,6 +60,17 @@ export default function HeroContent() {
             <p className="mt-2 sm:text-2xl font-medium sm:leading-8 text-white">
               Le 7pontmenou est un immeuble dans la célèbre localité de Pont Menou, terre d&apos;aventures aux coins des Côtes-d&apos;Armor et du Finistère, port d&apos;attache et de retour d&apos;un certain nombre de personnes en Dérive ces dernières années.
             </p>
+            <p className="mt-2 sm:text-2xl font-medium sm:leading-8 text-white">
+              Le lieu a 240 m<sup>2</sup> de logement répartis en 3 habitations actuellement louées. Une maison, deux appartements. On y trouve également une buanderie, un grand atelier, un local qui sert de miellerie. À l&apos;extérieur, un joli jardin arboré et un terrain adjacent sur une surface de 400 m<sup>2</sup>. Le 7pontmenou est un immeuble dans la célèbre localité de Pont Menou, terre d'aventures aux coins des Côtes-d&apos;Armor et du Finistère, port d&apos;attache et de retour d&apos;un certain nombre de personnes en Dérive ces dernières années.
+            </p>
+            <p className="mt-2 sm:text-2xl font-medium sm:leading-8 text-white">
+              Le 7pontmenou est en ventele 1er octobre...
+            </p>
+            <p className="mt-2 sm:text-2xl font-medium sm:leading-8 text-white">
+              Il aiguise l&apos;appétit des promoteurs immobiliers sur un territoire où le nombre de logements à loyers modérés fond comme les neiges des Alpes en 2023. Et nous, nous aimerions bien le leur arracher. Nous voilà donc, depuis deux mois, en quête de 330 000€.
+            </p>
+
+
 
           </div>
         </div>

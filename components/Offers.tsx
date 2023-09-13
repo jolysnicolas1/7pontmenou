@@ -4,6 +4,7 @@ type Props = {
   features: { name: string; description: string | React.ReactNode }[]
   images: { href: string; alt: string }[]
   title: string
+  intro: string
   link?: React.ReactNode
   reversePosition?: boolean
   titleId: string
@@ -14,6 +15,7 @@ export default function Offers({
   features,
   images,
   title,
+  intro,
   link,
   titleId,
   reversePosition,
@@ -22,7 +24,6 @@ export default function Offers({
     <div className=""
          id={titleId}
     >
-
       <div className="mx-auto grid max-w-2xl grid-cols-1 items-center gap-x-8 gap-y-16 px-4 lg:py-24 sm:px-6 sm:py-12 lg:max-w-7xl lg:grid-cols-2 lg:px-8">
         <div
           className={`pl-5 ${
@@ -35,6 +36,9 @@ export default function Offers({
             >
               {title}
             </h2>
+            <p>
+              {intro}
+            </p>
             {link}
           </div>
           <dl className="mt-8 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 sm:gap-y-16 lg:gap-x-8">

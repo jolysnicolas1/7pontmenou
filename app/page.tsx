@@ -30,6 +30,7 @@ export default function Home() {
           // </Link>
         // }
         title="Le projet d'achat du 7 Pont Menou"
+        intro="En premier lieu, l&apos;idée était donc de maintenir une capacité d&apos;hébergement à des tarifs accessibles proche de la Dérive. Dans un deuxième temps, ce projet s&apos;est agrémenté de tout un tas d&apos;idées saugrenues: que faire de tous ces espaces communs, des extérieurs, des locaux attenants, du trottoir, de l&apos;histoire de ses maisons."
         titleId="projet"
         images={[
           {
@@ -54,11 +55,7 @@ export default function Home() {
             name: "Des hébergements accessibles",
             description: (
               <>
-                Maintenir des loyers modérés au coeur d’un territoire où ils se font de plus en plus rares.
-                <br />
-                <br />
-                Cuisine espiègle, locale et de saison, boissons audacieuses et
-                desserts gloutons
+                Maintenir des loyers modérés au coeur d&apos;un territoire où ils se font de plus en plus rares.
               </>
             ),
           },
@@ -66,18 +63,23 @@ export default function Home() {
             name: "S'inscrire dans la vie du village",
             description: (
               <>
+                Y inviter un village déjà bien vivant.
+              </>
+            ),
+          },
+          {
+            name: "Lutter contre la spéculation",
+            description: (
+              <>
+                Sortir un immeuble delaspéculation immobilière.
+              </>
+            ),
+          },
+          {
+            name: "Un lieu de soins et d'accueil",
+            description: (
+              <>
                 Du mardi au vendredi de 12h à 14h.
-                <br />
-                <br />
-                Le jeudi soir, pendant les Buvette de 18h-21h
-                <br />
-                <br />
-                Et lors des événements publics :
-                <br />
-                Retrouvez-nous sur l&apos;agenda des Ateliers du Vent
-                <br />
-                <br />
-                Pas de réservation pour le Snack!{" "}
               </>
             ),
           },
@@ -85,9 +87,9 @@ export default function Home() {
             name: "Proche de la Dérive",
             description: (
               <>
-                C’est l’ancien bar-restaurant au coeur du village et actuellement un espace ressource pour l’association
+                C’est l’ancien bar-restaurant au coeur du village et actuellement un espace ressource pour l&apos;association
                 ‘Pont Menou dans les bois’ qui gère la Dérive...<br />
-                <div className="flex space-x-2">
+                {/* <div className="flex space-x-2">
                   {socials.map((item, i) => {
                     if (i === 3 || i === 4) {
                       return (
@@ -105,7 +107,7 @@ export default function Home() {
                       )
                     }
                   })}
-                </div>
+                </div> */}
               </>
             ),
           },
@@ -113,25 +115,20 @@ export default function Home() {
       />
       <Features
         reversePosition
-        title="Un peu d'histoire"
+        title="Une émanation de la Dérive"
         titleId="historique"
         text={
           <>
             <p className="mt-6 text-base sm:text-lg leading-8 text-gray-600">
-            Dans le petit hameau de Pont Menou, entre Plouégat-Guérand et Plestin-les-Grèves, deux maisons mitoyennes au 7 de la rue de Pont Menou au cœur du hameau sont en vente. L’une est l’ancien bar –restaurant du hameau. On y trouve 2 apparentements, une maison, un atelier, une buanderie et un petit local servant de miellerie actuellement et un joli jardin arboré. Les hébergements sont habités par 5 locataires, un enfant et 4 adultes, tous membres et usagers de la Dérive, juste en face.
-            </p>
-            {/* <p className="mt-6 text-base sm:text-lg leading-8 text-gray-600">
-            La Dérive, un lieu collectif créé en 2015 par un collectif avec une pensée des alternatives, des ruptures, de l’autonomie. Aujourd’hui elle est devenue un espace de partage de matériel, un lieu d’artisanat, artistique, un lieu de fêtes, soucieux du comment on construit et on rassemble.
+              À l&apos;origine de <a className="text-myGreen hover:text-green-900 duration-500" href="https://pontmenou.jimdofree.com/" target="_blank" rel="noopener noreferrer">la Dérive</a>, il y a &quot;un groupe espérant être rejoints, ici ou ailleurs, avec une envie de créer des places fortes nous armant face à l&apos;aridité actuelle autant économique que sociale. Un groupe cherchant à avoir de manière pérenne un lieu, un asile, un havre, une fourmilière créatrice où nous retrouver aujourd&apos;hui et demain pour faire, créer, apprendre et partager.&quot;
+              <a className="text-myGreen hover:text-green-900 duration-500" href="https://pontmenou.jimdofree.com/" target="_blank" rel="noopener noreferrer">La Dérive</a> est un espace artisanal, artistique et d&apos;autonomie nourricière, un lieu de fêtes et de célébrations également, soucieux du comment on construit, du comment on rassemble.
             </p>
             <p className="mt-6 text-base sm:text-lg leading-8 text-gray-600">
-            Le 7 serait alors comme une émergence des envies d’accueil, d4hébergement, de refuge qui n’a pas trouvé leur place dans le projet de la Dérive.
+              Le 7, ce serait alors un peu comme un prolongement de la Dérive à ces envies anciennes, une histoire en parallèle, une histoire de 50m où l&apos;on pense refuge, accueils, hébergements, sans même avoir à se préoccuper de la question des ateliers, de l&apos;espace, du festif. C&apos;est une opportunité unique de pouvoir ouvrir un tel lieu dans un espace rural; et pour le 7pontmenou, l&apos;immense chance de pouvoir compter avec un autre collectif, foisonnant, agissant, lumineux.
+              C&apos;est trouver de l&apos;autonomie affective, sensible, au sein d&apos;un réseau qui choisit au mieux ses dépendances.
             </p>
-            <p className="mt-6 text-base sm:text-lg leading-8 text-gray-600">
-            C’est une opportunité unique de pouvoir ouvrir un tel lieu dans un environnement rural, l’immense chance de pouvoir compter sur un nouveau collectif, foisonnant, agissant et lumineux.
-            </p>
-            <p className="mt-6 text-base sm:text-lg leading-8 text-gray-600">
-            L’achat de cet immeuble par le collectif permettrait de maintenir des loyers modérés au cœur d’un territoire où de tels opportunités se font rares. Ce serait aussi participer à la vie du village où on peut mettre en jeu nos réflexions autour de l’hébergement, du soin et de la santé.
-            </p> */}
+
+ 
           </>
         }
         image={{
