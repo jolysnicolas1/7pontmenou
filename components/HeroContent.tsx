@@ -57,6 +57,10 @@ export default function HeroContent() {
                   Promesse de don ou de prêt
               </Link>
             </div>
+            <p className="mt-2 sm:text-2xl font-medium sm:leading-8 text-white">
+              Le 7pontmenou est un immeuble dans la célèbre localité de Pont Menou, terre d&apos;aventures aux coins des Côtes-d&apos;Armor et du Finistère, port d&apos;attache et de retour d&apos;un certain nombre de personnes en Dérive ces dernières années.
+            </p>
+
           </div>
         </div>
       </div>
