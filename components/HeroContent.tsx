@@ -2,7 +2,7 @@ import { BellAlertIcon } from "@heroicons/react/24/outline"
 import Image from "next/image"
 import Link from "next/link"
 
-import { reservationLink } from "@/lib/utils"
+import { formLink } from "@/lib/utils"
 
 import heroImg from "../public/photos/hero.jpeg"
 import { buttonVariants } from "./ui/button"
@@ -34,7 +34,7 @@ export default function HeroContent() {
               <Link
                 target="_blank"
                 rel="noopener noreferrer"
-                href={reservationLink}
+                href={formLink}
                 className={buttonVariants({ variant: "cta", size: "xl" })}
               >
                 <BellAlertIcon className="mr-2 h-4 w-4 sm:h-5 sm:w-5 sm:mr-3" />{" "}

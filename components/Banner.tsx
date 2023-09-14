@@ -1,6 +1,6 @@
 import { HandRaisedIcon } from "@heroicons/react/24/outline"
 
-import { reservationLink } from "@/lib/utils"
+import { reservationLink, formLink } from "@/lib/utils"
 
 import { buttonVariants } from "./ui/button"
 
@@ -12,13 +12,11 @@ export default function Banner() {
           <h2 className="text-3xl font-bold tracking-tight text-slate-50 sm:text-4xl">
             Faire un don
           </h2>
-          {/* <p className="mx-auto mt-6 max-w-xl text-lg leading-8 text-gray-300">
-            Incididunt sint fugiat pariatur cupidatat consectetur sit cillum anim id veniam aliqua proident excepteur
-            commodo do ea.
-          </p> */}
           <div className="mt-10 flex items-center justify-center gap-x-6">
             <a
-              href={reservationLink}
+              href={formLink}
+              target="_blank"
+
               className={buttonVariants({ variant: "outline", size: "xl" })}
             >
               <HandRaisedIcon className="mr-2 h-4 w-4" /> Promesse de don ou de prêt

@@ -12,18 +12,6 @@ const BottomButtons = () => {
       // eslint-disable-next-line @typescript-eslint/no-explicit-any
       icon: (props: any) => <Map {...props} />,
     },
-    // {
-    //   name: "Appeler",
-    //   href: "tel:0651961494",
-    //   // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    //   icon: (props: any) => <PhoneCall {...props} />,
-    // },
-    // {
-    //   name: "Réserver",
-    //   href: reservationLink,
-    //   // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    //   icon: (props: any) => <BellAlertIcon {...props} />,
-    // },
   ]
 
   return (

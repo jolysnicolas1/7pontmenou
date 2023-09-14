@@ -8,7 +8,7 @@ import Offers from "@/components/Offers"
 import Slider from "@/components/Slider"
 import { buttonVariants } from "@/components/ui/button"
 import { socials } from "@/lib/socials"
-import { reservationLink } from "@/lib/utils"
+import { reservationLink, formLink } from "@/lib/utils"
 
 
 export default function Home() {
@@ -139,7 +139,7 @@ export default function Home() {
               <Link
                 target="_blank"
                 rel="noopener noreferrer"
-                href={reservationLink}
+                href={formLink}
                 className={buttonVariants({ variant: "cta", size: "xl" })}
               >
                   Promesse de don ou de prêt

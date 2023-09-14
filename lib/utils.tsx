@@ -16,3 +16,6 @@ export const navigation = [
 
 export const reservationLink =
   "https://7pontmenou.org"
+
+export const formLink =
+  "https://noteforms.com/forms/appel-a-promesses-de-dons-et-de-pret-1-5bqmm2"
