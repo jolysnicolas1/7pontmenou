@@ -1,5 +1,5 @@
 /* eslint-disable sonarjs/no-duplicate-string */
-// import { BellAlertIcon } from "@heroicons/react/24/outline"
+import { BellAlertIcon } from "@heroicons/react/24/outline"
 // import { UtensilsCrossed } from "lucide-react"
 import Link from "next/link"
 
@@ -10,9 +10,10 @@ import HeroContent from "@/components/HeroContent"
 // import Logo from "@/components/Logo"
 import Offers from "@/components/Offers"
 import Slider from "@/components/Slider"
-// import { buttonVariants } from "@/components/ui/button"
+import { buttonVariants } from "@/components/ui/button"
 import { socials } from "@/lib/socials"
-// import { reservationLink } from "@/lib/utils"
+import { reservationLink } from "@/lib/utils"
+
 
 export default function Home() {
   return (
@@ -138,29 +139,8 @@ export default function Home() {
       />
       <Features
         // reversePosition
-        title="Appel à dons ✨"
-        titleId="appel-a-dons"
-        text={
-          <>
-            <p className="mt-6 text-base sm:text-lg leading-8 text-gray-600">
-            Nous réfléchissons encore aujourd’hui au montant permettant d’acquérir et de faire vivre un tel lieu, création d’une association et éventuellement d’une SCI pour l’achat.
-            </p>
-            <p className="mt-6 text-base sm:text-lg leading-8 text-gray-600">
-            Ce bien immobilier sera en vente à un prix global de 330.000 Euros. Le propriétaire accepte l’idée d’un premier versement de 200.000 Euros suivis de 7 ans avec des versements de 1500 Euros par mois, sachant que le montant des loyers actuels s’élève à 1400 Euros par mois.
-            </p>
-            <p className="mt-6 text-base sm:text-lg leading-8 text-gray-600">
-            </p>
-          </>
-        }
-        image={{
-          src: "/photos/facade.jpeg",
-          alt: "",
-        }}
-      />
-      <Features
-        // reversePosition
         title="On imagine le lieu 🏠"
-        titleId="appel-a-dons"
+        titleId="on-imagine"
         text={
           <>
             <p className="mt-6 text-base sm:text-lg leading-8 text-gray-600">
@@ -182,6 +162,45 @@ export default function Home() {
           alt: "",
         }}
       />
+        <Features
+          reversePosition
+          title="Appel à dons ✨"
+          titleId="appel-a-dons"
+          text={
+            <>
+            <div className="m-10 flex sm:flex-row flex-col items-center justify-center gap-x-4">
+              <Link
+                target="_blank"
+                rel="noopener noreferrer"
+                href={reservationLink}
+                className={buttonVariants({ variant: "cta", size: "xl" })}
+              >
+                <BellAlertIcon className="mr-2 h-4 w-4 sm:h-5 sm:w-5 sm:mr-3" />
+                  Promesse de don ou de prêt
+              </Link>
+            </div>
+              <p className="mt-6 text-base sm:text-lg leading-8 text-gray-600">
+                Ce bien immobilier sera en vente à un prix global de 330.000 Euros. Le propriétaire propose l&apos;idée d&apos;une vente à terme: un premier versement de 200.000€ suivis pendant 7 ans d&apos;un versement mensuel de 1500 Euros par mois (sachant que le montant des loyers actuels s&apos;élève à 1400 Euros par mois).
+              </p>
+              <p className="mt-6 text-base sm:text-lg leading-8 text-gray-600">
+                Nous avons eu bien peu de temps, depuis juin, pour réagir à l&apos;annonce de la vente, créer un collectif, dessiner un projet.
+              </p>
+              <p className="mt-6 text-base sm:text-lg leading-8 text-gray-600">
+                Nous réfléchissons encore aujourd&apos;hui au montage financier permettant d&apos;acquérir et de faire vivre un tel lieu. Nous tranchons en ce moment entre un modèle associatif ou une SCI pour l&apos;achat. L&apos;idée reste en tous cas de trouver la forme la moins risquée en terme financier, la moins réappropriable ou déstabilisante par le retrait d&apos;une ou plusieurs personnes. On privilégie une forme associative, démocratique, globalement maîtrisant la situation...
+              </p>
+              <p className="mt-6 text-base sm:text-lg leading-8 text-gray-600">
+                Quelle que soit la forme juridique que prendrait le collectif d&apos;achat, nous devrons compter sur des dons et des prêts.
+              </p>
+              <p className="mt-6 text-base sm:text-lg leading-8 text-gray-600">
+                D&apos;où cet appel ! 
+              </p>
+            </>
+          }
+          image={{
+            src: "/photos/facade.jpeg",
+            alt: "",
+          }}
+        />
 
       <Banner />
 
