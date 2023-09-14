@@ -8,7 +8,7 @@ import Offers from "@/components/Offers"
 import Slider from "@/components/Slider"
 import { buttonVariants } from "@/components/ui/button"
 import { socials } from "@/lib/socials"
-import { reservationLink, formLink } from "@/lib/utils"
+import { formLink } from "@/lib/utils"
 
 
 export default function Home() {
@@ -174,16 +174,6 @@ export default function Home() {
 
 
       <Offers
-        // link={
-          // <Link
-          //   target="_blank"
-          //   rel="noopener noreferrer"
-          //   href={reservationLink}
-          //   className={buttonVariants({ variant: "outline", size: "lg" })}
-          // >
-          //   <BellAlertIcon className="mr-2 h-4 w-4" /> Réserver
-          // </Link>
-        // }
         reversePosition
         title="Le montage financier"
         intro="Le montage financier"
