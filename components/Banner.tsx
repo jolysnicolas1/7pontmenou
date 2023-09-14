@@ -1,6 +1,6 @@
 import { HandRaisedIcon } from "@heroicons/react/24/outline"
 
-import { reservationLink, formLink } from "@/lib/utils"
+import { formLink } from "@/lib/utils"
 
 import { buttonVariants } from "./ui/button"
 

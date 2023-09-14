@@ -21,10 +21,12 @@ export default function Home() {
         titleId="projet"
         images={[
           {
+            // eslint-disable-next-line sonarjs/no-duplicate-string
             href: "/photos/facade.jpeg",
             alt: "Façade du 7 Pont Menou",
           },
           {
+            // eslint-disable-next-line sonarjs/no-duplicate-string
             href: "/photos/pontmenou.jpeg",
             alt: "Village de Pont Menou",
           },
