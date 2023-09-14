@@ -5,7 +5,7 @@ import BottomButtons from "@/components/BottomButtons"
 import Features from "@/components/Features"
 import HeroContent from "@/components/HeroContent"
 import Offers from "@/components/Offers"
-import Slider from "@/components/Slider"
+// import Slider from "@/components/Slider"
 import { buttonVariants } from "@/components/ui/button"
 import { socials } from "@/lib/socials"
 import { formLink } from "@/lib/utils"
@@ -225,7 +225,7 @@ Les prêts sont faits à l&apos;association –en cours de constitution – et s
       />
 
 
-      <Slider />
+      {/* <Slider /> */}
 
       {/* <Logo /> */}
 
