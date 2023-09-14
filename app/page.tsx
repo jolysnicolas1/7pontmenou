@@ -1,6 +1,3 @@
-/* eslint-disable sonarjs/no-duplicate-string */
-import { BellAlertIcon } from "@heroicons/react/24/outline"
-// import { UtensilsCrossed } from "lucide-react"
 import Link from "next/link"
 
 import Banner from "@/components/Banner"
@@ -19,16 +16,6 @@ export default function Home() {
     <main className="flex min-h-screen flex-col items-center justify-between bg-gray-50 space-y-12 text-lime-950 rounded-md">
       <HeroContent />
       <Offers
-        // link={
-          // <Link
-          //   target="_blank"
-          //   rel="noopener noreferrer"
-          //   href={reservationLink}
-          //   className={buttonVariants({ variant: "outline", size: "lg" })}
-          // >
-          //   <BellAlertIcon className="mr-2 h-4 w-4" /> Réserver
-          // </Link>
-        // }
         title="Le projet d'achat du 7 Pont Menou"
         intro="En premier lieu, l&apos;idée était donc de maintenir une capacité d&apos;hébergement à des tarifs accessibles proche de la Dérive. Dans un deuxième temps, ce projet s&apos;est agrémenté de tout un tas d&apos;idées saugrenues: que faire de tous ces espaces communs, des extérieurs, des locaux attenants, du trottoir, de l&apos;histoire de ses maisons."
         titleId="projet"
@@ -155,7 +142,6 @@ export default function Home() {
                 href={reservationLink}
                 className={buttonVariants({ variant: "cta", size: "xl" })}
               >
-                <BellAlertIcon className="mr-2 h-4 w-4 sm:h-5 sm:w-5 sm:mr-3" />
                   Promesse de don ou de prêt
               </Link>
             </div>

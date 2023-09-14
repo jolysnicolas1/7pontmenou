@@ -1,9 +1,6 @@
-// import { BellAlertIcon } from "@heroicons/react/24/outline"
-
 import { navigation } from "@/lib/utils"
 
 import Burger from "./Burger"
-// import { buttonVariants } from "./ui/button"
 
 type Props = {
   isDark?: boolean
