@@ -29,9 +29,8 @@ export default function Slider() {
           <SwiperSlide key={image}>
             <div className="rounded-md h-full shrink-0 drop-shadow-2xl relative">
               <Image
-                // className="rounded-md object-contain h-full"
                 src={image}
-                alt={`Passages - Portfolio ${i}`}
+                alt={`Le 7 - Portfolio ${i}`}
                 objectFit="cover"
                 fill
               />

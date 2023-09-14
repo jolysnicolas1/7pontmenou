@@ -17,19 +17,6 @@ const Navbar = ({ isDark }: Props) => {
         aria-label="Global"
       >
         <div className="flex md:flex-1">
-          {/* <a
-            href="/"
-            className="-m-1.5 p-1.5"
-          >
-            <span className="sr-only">Passages</span>
-            <Image
-              className="h-8 w-auto"
-              src={logo}
-              width={120}
-              height={120}
-              alt=""
-            />
-          </a> */}
         </div>
         <Burger isDark={isDark} />
         <div
@@ -50,14 +37,6 @@ const Navbar = ({ isDark }: Props) => {
           ))}
         </div>
         <div className="hidden md:flex md:flex-1 md:justify-end">
-          {/* <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href={reservationLink}
-            className={buttonVariants({ variant: "outline", size: "sm" })}
-          >
-            <BellAlertIcon className="mr-2 h-4 w-4" /> Réserver
-          </a> */}
         </div>
       </nav>
     </header>

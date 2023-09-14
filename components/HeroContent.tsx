@@ -22,22 +22,6 @@ export default function HeroContent() {
           <div className="text-center flex flex-col justify-center items-center">
             <h1 className="uppercase font-pitch font-bold tracking-[0.085em] text-white text-2xl sm:text-4xl md:text-7xl">
               Achat du 7 Pont-Menou
-              {/* <ReactCurvedText
-                width={600}
-                height={340}
-                cx={300}
-                cy={300}
-                rx={200}
-                ry={200}
-                startOffset={-44}
-                reversed={true}
-                text="passages"
-                // textProps={{ style: { fontSize: "8.15rem" } }}
-                textPathProps={null}
-                tspanProps={null}
-                ellipseProps={null}
-                svgProps={null} */}
-              {/* /> */}
             </h1>
             <p className="mt-2 sm:text-2xl font-medium sm:leading-8 text-white">
               Un lieu partagé
