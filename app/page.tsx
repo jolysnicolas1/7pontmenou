@@ -7,7 +7,6 @@ import Banner from "@/components/Banner"
 import BottomButtons from "@/components/BottomButtons"
 import Features from "@/components/Features"
 import HeroContent from "@/components/HeroContent"
-// import Logo from "@/components/Logo"
 import Offers from "@/components/Offers"
 import Slider from "@/components/Slider"
 import { buttonVariants } from "@/components/ui/button"
@@ -36,19 +35,19 @@ export default function Home() {
         images={[
           {
             href: "/photos/facade.jpeg",
-            alt: "Passages Rennes - la table des Ateliers du Vent 2",
+            alt: "Façade du 7 Pont Menou",
           },
           {
             href: "/photos/pontmenou.jpeg",
-            alt: "Passages Rennes - la table des Ateliers du Vent 3",
+            alt: "Village de Pont Menou",
           },
           {
             href: "/photos/bar.jpeg",
-            alt: "Passages Rennes - la table des Ateliers du Vent 4",
+            alt: "Le bar restaurant",
           },
           {
             href: "/photos/trois.jpeg",
-            alt: "Passages Rennes - la table des Ateliers du Vent 4",
+            alt: "Le projet du 7 Pont Menou",
           },
         ]}
         features={[
@@ -88,27 +87,8 @@ export default function Home() {
             name: "Proche de la Dérive",
             description: (
               <>
-                C’est l’ancien bar-restaurant au coeur du village et actuellement un espace ressource pour l&apos;association
-                ‘Pont Menou dans les bois’ qui gère la Dérive...<br />
-                {/* <div className="flex space-x-2">
-                  {socials.map((item, i) => {
-                    if (i === 3 || i === 4) {
-                      return (
-                        <Link
-                          key={item.name}
-                          href={item.href}
-                          className="text-black hover:underline mt-2"
-                        >
-                          <span className="sr-only">{item.name}</span>
-                          <item.icon
-                            className="h-6 w-6 text-gray-700"
-                            aria-hidden="true"
-                          />
-                        </Link>
-                      )
-                    }
-                  })}
-                </div> */}
+                C&apos;est l&apos;ancien bar-restaurant au coeur du village et actuellement un espace ressource pour l&apos;association
+                Pont Menou dans les bois qui gère la Dérive...<br />
               </>
             ),
           },
@@ -243,7 +223,7 @@ export default function Home() {
             name: "Dons à l’association",
             description: (
               <>
-                C’est la forme la plus avantageuse pour le projet puisqu’ils sont considérés comme définitifs. Ces dons peuvent faire l’objet d’une réduction d’impôts.
+                C&apos;est la forme la plus avantageuse pour le projet puisqu&apos;ils sont considérés comme définitifs. Ces dons peuvent faire l&apos;objet d&apos;une réduction d&apos;impôts.
               </>
             ),
           },
@@ -251,7 +231,7 @@ export default function Home() {
             name: "Les prêts à l’association",
             description: (
               <>    
-Les prêts sont faits à l’association –en cours de constitution – et seront remboursés selon les termes qui pourront     soit :               
+Les prêts sont faits à l&apos;association –en cours de constitution – et seront remboursés selon les termes qui pourront     soit :               
               </>
             ),
           },
@@ -259,27 +239,7 @@ Les prêts sont faits à l’association –en cours de constitution – et sero
             name: "Parts dans la SCI",
             description: (
               <>
-                C’est l’ancien bar-restaurant au coeur du village et actuellement un espace ressource pour l’association
-                ‘Pont Menou dans les bois’ qui gère la Dérive...<br />
-                <div className="flex space-x-2">
-                  {socials.map((item, i) => {
-                    if (i === 3 || i === 4) {
-                      return (
-                        <Link
-                          key={item.name}
-                          href={item.href}
-                          className="text-black hover:underline mt-2"
-                        >
-                          <span className="sr-only">{item.name}</span>
-                          <item.icon
-                            className="h-6 w-6 text-gray-700"
-                            aria-hidden="true"
-                          />
-                        </Link>
-                      )
-                    }
-                  })}
-                </div>
+                C&apos;est l&apos;ancien bar-restaurant au coeur du village et actuellement un espace ressource pour l&apos;association Pont Menou dans les bois qui gère la Dérive...<br />
               </>
             ),
           },

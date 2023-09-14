@@ -51,9 +51,9 @@ const antiqueOlive = localFont({
 const title = "Achat du 7 Pont-Menou"
 const desc =
   "7 Pont Menou | Projet d'habitat et lieu d'accueil à Pont-Menou"
-const keywords = ["Restaurant", "Rennes", "Cuisine locale", "Snack"]
+const keywords = ["Pont Menou", "La Dérive", "Achat", "Collectif"]
 
-const image = "https://passages-rennes.com/logos/passages_logo.png"
+const image = "https://7pontmenou.org/logos/masse.jpeg"
 
 export const metadata = {
   verification: {

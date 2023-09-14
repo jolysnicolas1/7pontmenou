@@ -61,10 +61,10 @@ export default function HeroContent() {
               Le 7pontmenou est un immeuble dans la célèbre localité de Pont Menou, terre d&apos;aventures aux coins des Côtes-d&apos;Armor et du Finistère, port d&apos;attache et de retour d&apos;un certain nombre de personnes en Dérive ces dernières années.
             </p>
             <p className="mt-2 sm:text-2xl font-medium sm:leading-8 text-white">
-              Le lieu a 240 m<sup>2</sup> de logement répartis en 3 habitations actuellement louées. Une maison, deux appartements. On y trouve également une buanderie, un grand atelier, un local qui sert de miellerie. À l&apos;extérieur, un joli jardin arboré et un terrain adjacent sur une surface de 400 m<sup>2</sup>. Le 7pontmenou est un immeuble dans la célèbre localité de Pont Menou, terre d'aventures aux coins des Côtes-d&apos;Armor et du Finistère, port d&apos;attache et de retour d&apos;un certain nombre de personnes en Dérive ces dernières années.
+              Le lieu a 240 m2 de logement répartis en 3 habitations actuellement louées. Une maison, deux appartements. On y trouve également une buanderie, un grand atelier, un local qui sert de miellerie. À l&apos;extérieur, un joli jardin arboré et un terrain adjacent sur une surface de 400 m2. Le 7pontmenou est un immeuble dans la célèbre localité de Pont Menou, terre d'aventures aux coins des Côtes-d&apos;Armor et du Finistère, port d&apos;attache et de retour d&apos;un certain nombre de personnes en Dérive ces dernières années.
             </p>
             <p className="mt-2 sm:text-2xl font-medium sm:leading-8 text-white">
-              Le 7pontmenou est en ventele 1er octobre...
+              Le 7pontmenou est en vente le 1er octobre...
             </p>
             <p className="mt-2 sm:text-2xl font-medium sm:leading-8 text-white">
               Il aiguise l&apos;appétit des promoteurs immobiliers sur un territoire où le nombre de logements à loyers modérés fond comme les neiges des Alpes en 2023. Et nous, nous aimerions bien le leur arracher. Nous voilà donc, depuis deux mois, en quête de 330 000€.
