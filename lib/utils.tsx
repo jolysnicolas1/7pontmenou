@@ -18,4 +18,4 @@ export const reservationLink =
   "https://7pontmenou.org"
 
 export const formLink =
-  "https://noteforms.com/forms/appel-a-promesses-de-dons-et-de-pret-1-5bqmm2"
+  "https://noteforms.com/forms/achat-du-7-pont-menou-promesses-de-dons-et-de-prets-seoyqk"
