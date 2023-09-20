@@ -1,13 +1,8 @@
-import Link from "next/link"
-
 import Banner from "@/components/Banner"
 import Features from "@/components/Features"
 import HeroContent from "@/components/HeroContent"
 import Offers from "@/components/Offers"
-// import Slider from "@/components/Slider"
-import { buttonVariants } from "@/components/ui/button"
 import { socials } from "@/lib/socials"
-import { formLink } from "@/lib/utils"
 
 
 export default function Home() {
@@ -99,6 +94,7 @@ export default function Home() {
           </>
         }
         image={{
+          // eslint-disable-next-line sonarjs/no-duplicate-string
           src: "/photos/masse.png",
           alt: "",
         }}
@@ -256,37 +252,37 @@ export default function Home() {
               1500 euros par mois (sachant que le montant des loyers actuels s'élève à 1400 euros par mois).
             </p>
             <p className="mt-6 text-base sm:text-lg leading-8 text-gray-600">
-              Nous avons eu bien peu de temps, depuis fin juin, pour réagir à l'annonce de la vente, créer un collectif,
+              Nous avons eu bien peu de temps, depuis fin juin, pour réagir à l&apos;annonce de la vente, créer un collectif,
               dessiner un projet.
             </p>
             <p className="mt-6 text-base sm:text-lg leading-8 text-gray-600">
-              Nous réfléchissons encore aujourd'hui au montage financier et à la structure juridique permettant
-              d'acquérir et de faire vivre un tel lieu, les options de modèle associatif ou une SCI pour l'achat sont à
-              l'étude. L'idée reste en tous cas de trouver la forme la moins risquée en terme financier, la moins
-              réappropriable ou déstabilisante par le retrait d'une ou plusieurs personnes.
+              Nous réfléchissons encore aujourd&apos;hui au montage financier et à la structure juridique permettant
+              d&apos;acquérir et de faire vivre un tel lieu, les options de modèle associatif ou une SCI pour l&apos;achat sont à
+              l&apos;étude. L&apos;idée reste en tous cas de trouver la forme la moins risquée en terme financier, la moins
+              réappropriable ou déstabilisante par le retrait d&apos;une ou plusieurs personnes.
             </p>
             <p className="mt-6 text-base sm:text-lg leading-8 text-gray-600">
-              Quelle que soit la forme juridique que prendrait le collectif d'achat, nous devrons compter sur des dons et
+              Quelle que soit la forme juridique que prendrait le collectif d&apos;achat, nous devrons compter sur des dons et
               des prêts.
             </p>
             <p className="mt-6 text-base sm:text-lg leading-8 text-gray-600 font-bold">
-              ✨ D'où cet appel ✨ !
+              ✨ D&apos;où cet appel ✨ !
             </p>
             <p className="mt-6 text-base sm:text-lg leading-8 text-gray-600">
-              Il nous faut rassembler 240 000 euros pour faire une offre : 200 000 euros pour l'achat + 40 000 euros afin
-              d'avoir suffisamment de trésorerie pour couvrir les premières années de dépenses liées au lieu, aux
+              Il nous faut rassembler 240 000 euros pour faire une offre : 200 000 euros pour l&apos;achat + 40 000 euros afin
+              d&apos;avoir suffisamment de trésorerie pour couvrir les premières années de dépenses liées au lieu, aux
               remboursements des mensualités au propriétaire et des prêts des contributeurs. Cette part de trésorerie
-              nous laissera le temps d'engager les activités du collectif et de pouvoir monter des dossiers de subventions
+              nous laissera le temps d&apos;engager les activités du collectif et de pouvoir monter des dossiers de subventions
               de fondations et de collectivités.
             </p>
             <p className="mt-6 text-base sm:text-lg leading-8 text-gray-600">
               Actuellement nous en sommes à des promesses de plus de 50 000 euros de dons et 60 000 euros de prêts
-              auprès d'un petit cercle de personnes, issu du collectif ou ayant réagit aux premières annonces du projet.
+              auprès d&apos;un petit cercle de personnes, issu du collectif ou ayant réagit aux premières annonces du projet.
             </p>
             <p className="mt-6 text-base sm:text-lg leading-8 text-gray-600">
-              Pour pouvoir faire une offre d'achat dans les meilleurs délais – mise en vente le 1 Octobre – nous
+              Pour pouvoir faire une offre d&apos;achat dans les meilleurs délais – mise en vente le 1 Octobre – nous
               recherchons donc encore 130 000 euros, en dons ou en prêts, de préférence remboursables au terme de la
-              vente (7 ans après la date d'achat) - ou pas trop rapidement après l'achat.
+              vente (7 ans après la date d&apos;achat) - ou pas trop rapidement après l&apos;achat.
             </p>
 
           </>
