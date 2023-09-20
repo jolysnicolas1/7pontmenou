@@ -34,7 +34,7 @@ export default function HeroContent() {
                 className={buttonVariants({ variant: "cta", size: "xl" })}
               >
                 <BellAlertIcon className="mr-2 h-4 w-4 sm:h-5 sm:w-5 sm:mr-3" />{" "}
-                  Promesse de don ou de prêt
+                  Promesses de dons ou de prêts
               </Link>
             </div>
           </div>

@@ -47,7 +47,7 @@ export default function Banner() {
 
               className={buttonVariants({ variant: "outline", size: "xl" })}
             >
-              <HandRaisedIcon className="mr-2 h-4 w-4" /> CONTRIBUTIONS
+              <HandRaisedIcon className="mr-2 h-4 w-4" /> CONTRIBUER
             </a>
           </div>
         </div>
