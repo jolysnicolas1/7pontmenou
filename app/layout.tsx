@@ -53,7 +53,7 @@ const desc =
   "7 Pont Menou | Projet d'habitat et lieu d'accueil à Pont-Menou"
 const keywords = ["Pont Menou", "La Dérive", "Achat", "Collectif"]
 
-const image = "https://7pontmenou.org/logos/masse.jpeg"
+const image = "https://7pontmenou.org/logos/masse.png"
 
 export const metadata = {
   verification: {

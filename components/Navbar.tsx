@@ -10,14 +10,14 @@ const Navbar = ({ isDark }: Props) => {
   return (
     <header className={`fixed inset-x-0 top-0 z-50  bg-transparent`}>
       <nav
-        className="static flex items-center justify-between p-6 lg:px-8"
+        className="static flex items-center justify-between p-6 lg:px-8 text-center"
         aria-label="Global"
       >
-        <div className="flex md:flex-1">
+        <div className="flex lg:flex-1">
         </div>
         <Burger isDark={isDark} />
         <div
-          className={`hidden font-sans px-5 pt-4 pb-3 md:flex md:gap-x-12 ${
+          className={`bg-opacity-90 hidden font-sans px-5 pt-4 pb-3 lg:flex lg:gap-x-12 ${
             isDark
               ? " bg-transparent text-white"
               : "bg-white rounded-full text-black shadow"
@@ -33,7 +33,7 @@ const Navbar = ({ isDark }: Props) => {
             </a>
           ))}
         </div>
-        <div className="hidden md:flex md:flex-1 md:justify-end">
+        <div className="hidden lg:flex lg:flex-1 lg:justify-end">
         </div>
       </nav>
     </header>

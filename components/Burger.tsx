@@ -17,7 +17,7 @@ const Burger = ({ isDark }: Props) => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
-    <div className="flex md:hidden">
+    <div className="flex lg:hidden">
       <button
         type="button"
         className="-m-2.5 inline-flex items-center justify-center  p-2.5 bg-gray-50 border border-gray-200 rounded-md text-gray-700"
@@ -31,7 +31,7 @@ const Burger = ({ isDark }: Props) => {
       </button>
       <Dialog
         as="div"
-        className="md:hidden"
+        className="lg:hidden"
         open={mobileMenuOpen}
         onClose={setMobileMenuOpen}
       >

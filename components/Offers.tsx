@@ -5,6 +5,9 @@ type Props = {
   images: { href: string; alt: string }[]
   title: string
   intro: string
+  intro2: string
+  intro3: string
+  intro4: string
   link?: React.ReactNode
   reversePosition?: boolean
   titleId: string
@@ -16,6 +19,9 @@ export default function Offers({
   images,
   title,
   intro,
+  intro2,
+  intro3,
+  intro4,
   link,
   titleId,
   reversePosition,
@@ -36,8 +42,20 @@ export default function Offers({
             >
               {title}
             </h2>
-            <p>
+            <p className="font-bold">
               {intro}
+            </p>
+            <br />
+            <p>
+              {intro2}
+            </p>
+            <br />
+            <p>
+              {intro3}
+            </p>
+            <br />
+            <p>
+              {intro4}
             </p>
             {link}
           </div>
