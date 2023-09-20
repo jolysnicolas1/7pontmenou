@@ -247,9 +247,9 @@ export default function Home() {
         text={
           <>
             <p className="mt-6 text-base sm:text-lg leading-8 text-gray-600">
-              Ce bien immobilier est en vente à un prix global de 330 000 euros. Le propriétaire propose l'idée d'une
-              vente à terme : un premier versement de 200 000 euros suivi pendant 7 ans d'un versement mensuel de
-              1500 euros par mois (sachant que le montant des loyers actuels s'élève à 1400 euros par mois).
+              Ce bien immobilier est en vente à un prix global de 330 000 euros. Le propriétaire propose l&apos;idée d&apos;une
+              vente à terme : un premier versement de 200 000 euros suivi pendant 7 ans d&apos;un versement mensuel de
+              1500 euros par mois (sachant que le montant des loyers actuels s&apos;élève à 1400 euros par mois).
             </p>
             <p className="mt-6 text-base sm:text-lg leading-8 text-gray-600">
               Nous avons eu bien peu de temps, depuis fin juin, pour réagir à l&apos;annonce de la vente, créer un collectif,
