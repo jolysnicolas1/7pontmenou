@@ -156,6 +156,8 @@ export default function Home() {
         title="ON IMAGINE"
         intro="1) Les destinations du 7pontmenou"
         intro2="Nous avons fait une liste des multiples destinations possibles du lieu :"
+        intro3=""
+        intro4=""
         titleId="on-imagine"
         images={[
           {
