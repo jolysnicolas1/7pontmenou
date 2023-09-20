@@ -1,7 +1,6 @@
 import Link from "next/link"
 
 import Banner from "@/components/Banner"
-import BottomButtons from "@/components/BottomButtons"
 import Features from "@/components/Features"
 import HeroContent from "@/components/HeroContent"
 import Offers from "@/components/Offers"
@@ -332,7 +331,7 @@ export default function Home() {
       />
 
 
-      <BottomButtons />
+      {/* <BottomButtons /> */}
     </main>
   )
 }
