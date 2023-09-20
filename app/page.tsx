@@ -234,7 +234,7 @@ export default function Home() {
           </>
         }
         image={{
-          src: "/photos/masse.png",
+          src: "/photos/step1.jpeg",
           alt: "",
         }}
       />
@@ -288,7 +288,7 @@ export default function Home() {
           </>
         }
         image={{
-          src: "/photos/masse.png",
+          src: "/photos/step3.jpeg",
           alt: "",
         }}
       />
