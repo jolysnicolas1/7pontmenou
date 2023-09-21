@@ -1,10 +1,14 @@
+import { BellAlertIcon } from "@heroicons/react/24/outline"
 import Image from "next/image"
+import Link from "next/link"
 
 import Banner from "@/components/Banner"
 import Features from "@/components/Features"
 import HeroContent from "@/components/HeroContent"
 import Offers from "@/components/Offers"
+import { buttonVariants } from "@/components/ui/button"
 import { socials } from "@/lib/socials"
+import { formLink } from "@/lib/utils"
 
 
 
@@ -13,6 +17,7 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between bg-gray-50 space-y-12 text-lime-950 rounded-md">
       <HeroContent />
+
       <Offers
         title="LE PROJET"
         intro="Il s'agit de l'ancien bar-restaurant au cœur du village et de la maison attenante, offrant 240 m2 de logements et un joli terrain arboré de 400m2, répartis en 3 habitations actuellement louées. On y trouve
@@ -281,7 +286,7 @@ export default function Home() {
         titleId="contributions"
         text={
           <>
-            {/* <div className="m-10 flex sm:flex-row flex-col items-center justify-center gap-x-4">
+            <div className="m-10 flex sm:flex-row flex-col items-center justify-center gap-x-4">
               <Link
                 target="_blank"
                 rel="noopener noreferrer"
@@ -291,7 +296,7 @@ export default function Home() {
                 <BellAlertIcon className="mr-2 h-4 w-4 sm:h-5 sm:w-5 sm:mr-3" />{" "}
                   Promesses de dons ou de prêts
               </Link>
-            </div> */}
+            </div>
             <p className="mt-6 text-base sm:text-lg leading-8 text-gray-600">
               Ce bien immobilier est en vente à un prix global de 330 000 euros. Le propriétaire propose l&apos;idée d&apos;une
               vente à terme : un premier versement de 200 000 euros suivi pendant 7 ans d&apos;un versement mensuel de

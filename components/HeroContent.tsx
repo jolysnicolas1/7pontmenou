@@ -1,11 +1,6 @@
-import { BellAlertIcon } from "@heroicons/react/24/outline"
 import Image from "next/image"
-import Link from "next/link"
-
-import { formLink } from "@/lib/utils"
 
 import heroImg from "../public/photos/hero.jpeg"
-import { buttonVariants } from "./ui/button"
 
 export default function HeroContent() {
   return (
@@ -26,16 +21,10 @@ export default function HeroContent() {
             <p className="mt-2 sm:text-2xl font-normal sm:leading-8 text-white">
             Le 7pontmenou est un immeuble dans la célèbre localité de Pont Menou, terre d&apos;aventures aux confins des Côtes-d&apos;Armor et du Finistère, port d&apos;attache et de retour d&apos;un certain nombre de personnes * en Dérive * ces dernières années.
             </p>
-            <div className="m-10 flex sm:flex-row flex-col items-center justify-center gap-x-4">
-              <Link
-                target="_blank"
-                rel="noopener noreferrer"
-                href={formLink}
-                className={buttonVariants({ variant: "cta", size: "xl" })}
-              >
-                <BellAlertIcon className="mr-2 h-4 w-4 sm:h-5 sm:w-5 sm:mr-3" />{" "}
-                  Promesses de dons ou de prêts
-              </Link>
+            <div className="flex flex-col text-gray-600 border border-red-500 px-12 py-8 rounded-lg drop-shadow-2xl mt-5 mx-5 bg-gradient-to-br from-slate-100 from-40% via-slate-200 via-70% to-slate-50 to-90%">
+              <p>Prochaine réunion d'information</p>
+              <p className="font-bold">Lundi 25 septembre à 18 heures</p>
+              <p>à la Dérive, Pont-Menou (29620)</p>
             </div>
           </div>
         </div>

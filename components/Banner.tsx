@@ -1,8 +1,3 @@
-import { HandRaisedIcon } from "@heroicons/react/24/outline"
-
-import { formLink } from "@/lib/utils"
-
-import { buttonVariants } from "./ui/button"
 
 export default function Banner() {
   return (
@@ -10,18 +5,8 @@ export default function Banner() {
       <div className="px-6 py-24 sm:px-6 sm:py-32 lg:px-8">
         <div className="mx-auto max-w-2xl text-center">
           <h2 className="text-3xl font-bold tracking-tight text-slate-50 sm:text-4xl">
-            Faire un don
+            Appel à dons et prêts ✨
           </h2>
-          <div className="mt-10 flex items-center justify-center gap-x-6">
-            <a
-              href={formLink}
-              target="_blank"
-
-              className={buttonVariants({ variant: "outline", size: "xl" })}
-            >
-              <HandRaisedIcon className="mr-2 h-4 w-4" /> CONTRIBUER
-            </a>
-          </div>
         </div>
       </div>
       <svg
