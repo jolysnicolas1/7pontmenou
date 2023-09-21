@@ -1,6 +1,3 @@
-// import { HeartIcon } from "@heroicons/react/24/outline"
-import Link from "next/link"
-
 import { socials } from "@/lib/socials"
 import { navigation as mainNavigation } from "@/lib/utils"
 
@@ -22,18 +19,18 @@ const Footer = () => {
               key={item.name}
               className="pb-6 px-6"
             >
-              <Link
+              <a
                 href={item.href}
                 className="text-base leading-6 text-slate-50 hover:underline"
               >
                 {item.name}
-              </Link>
+              </a>
             </div>
           ))}
         </nav>
         <div className="mt-10 flex justify-center space-x-10">
           {navigation.social.map(item => (
-            <Link
+            <a
               key={item.name}
               href={item.href}
               className="text-slate-50 hover:underline"
@@ -43,7 +40,7 @@ const Footer = () => {
                 className="h-6 w-6"
                 aria-hidden="true"
               />
-            </Link>
+            </a>
           ))}
         </div>
         <p className="mt-10 text-center flex flex-wrap justify-center text-sm leading-5 text-slate-50">
