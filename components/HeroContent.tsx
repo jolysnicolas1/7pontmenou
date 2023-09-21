@@ -22,7 +22,7 @@ export default function HeroContent() {
             Le 7pontmenou est un immeuble dans la célèbre localité de Pont Menou, terre d&apos;aventures aux confins des Côtes-d&apos;Armor et du Finistère, port d&apos;attache et de retour d&apos;un certain nombre de personnes * en Dérive * ces dernières années.
             </p>
             <div className="flex flex-col text-gray-600 border border-red-500 px-12 py-8 rounded-lg drop-shadow-2xl mt-5 mx-5 bg-gradient-to-br from-slate-100 from-40% via-slate-200 via-70% to-slate-50 to-90%">
-              <p>Prochaine réunion d'information</p>
+              <p>Prochaine réunion d&apos;information</p>
               <p className="font-bold">Lundi 25 septembre à 18 heures</p>
               <p>à la Dérive, Pont-Menou (29620)</p>
             </div>
