@@ -4,7 +4,7 @@ import heroImg from "../public/photos/hero.jpeg"
 
 export default function HeroContent() {
   return (
-    <div className="bg-gray-800 w-screen">
+    <div className="bg-gray-800 w-screen  relative">
       <div className="relative isolate overflow-hidden pt-14">
         <Image
           priority={true}
@@ -21,10 +21,10 @@ export default function HeroContent() {
             <p className="mt-2 sm:text-2xl font-normal sm:leading-8 text-white">
             Le 7pontmenou est un immeuble dans la célèbre localité de Pont Menou, terre d&apos;aventures aux confins des Côtes-d&apos;Armor et du Finistère, port d&apos;attache et de retour d&apos;un certain nombre de personnes * en Dérive * ces dernières années.
             </p>
-            <div className="flex flex-col text-gray-600 border border-red-500 px-12 py-8 rounded-lg drop-shadow-2xl mt-5 mx-5 bg-gradient-to-br from-slate-100 from-40% via-slate-200 via-70% to-slate-50 to-90%">
-              <p>Prochaine réunion d&apos;information</p>
-              <p className="font-bold">Lundi 25 septembre à 18 heures</p>
-              <p>à la Dérive, Pont-Menou (29620)</p>
+            <div className="opacity-90 flex flex-col md:flex-row space-x-5 bg-myGreen p-5 bg-opacity-95 text-white text-lg absolute bottom-0 w-full justify-center text-center align-center items-center">
+              <p className="px-1 text-center w-fit text-shadow">Prochaine réunion d&apos;information</p>
+              <p className="pl-1 text-center w-fit font-bold drop-shadow-lg">Lundi 25 septembre à 18 heures</p>
+              <p className="pr-5 text-center w-fit drop-shadow-lg">à la Dérive, Pont-Menou (29620)</p>
             </div>
           </div>
         </div>
