@@ -1,8 +1,12 @@
+import Image from "next/image"
+
 import Banner from "@/components/Banner"
 import Features from "@/components/Features"
 import HeroContent from "@/components/HeroContent"
 import Offers from "@/components/Offers"
 import { socials } from "@/lib/socials"
+
+
 
 
 export default function Home() {
@@ -48,24 +52,33 @@ export default function Home() {
         text={
           <>
             <p className="mt-6 text-base sm:text-lg leading-8 text-gray-600">
-              Nous sommes un noyau de quelques personnes qui ont traversé depuis plusieurs années, au cours
-              d’expériences militantes, associatives et professionnelles, des espaces du médico-social, des groupes
-              d’auto-défense administrative, des habitats partagés. On a participé à la construction d’espaces de vie
-              collective, habité dans des lieux d’accueil, travaillé dans des centres de santé... Réuni.es depuis à peine 3
-              mois par des constats communs, embarqué.es dans notre enthousiasme, confirmé.es par les messages de
-              soutien qui nous parviennent !
+              Cette vente a été l&apos;occasion de discuter
+              du manque, en milieu rural, d&apos;espaces
+              refuge, de logements d&apos;urgence, de prestations médicales, d&apos;espaces
+              ressources, de transmissions et d&apos;informations quant aux
+              problématiques sociales et de santé.
             </p>
             <p className="mt-6 text-base sm:text-lg leading-8 text-gray-600">
-              Un cercle d’une dizaine de personnes nous aide à monter le projet, des
-              collectifs amis (dont la Dérive en voisine) l’encouragent, le relaient, le facilitent.
+              Il est de plus en plus difficile de se loger à des prix modiques, il est
+              de plus en plus difficile d&apos;avoir accès à des lieux de soins.
             </p>
             <p className="mt-6 text-base sm:text-lg leading-8 text-gray-600">
-              Et 22 contributeur.rices réunissent déjà 110 000€ de dons et de prêts.
+              On sait l&apos;incurie dans laquelle sont laissées les institutions du
+              médico-social aujourd&apos;hui, on sait les difficultés financières et les
+              dynamiques d&apos;isolement qui se déploient autour de nous, parmi nous.
             </p>
             <p className="mt-6 text-base sm:text-lg leading-8 text-gray-600">
-              Nous sommes rejoignables, plus ou moins débordables, on ne se suffit pas à nous-mêmes, on croit
-              fermement que des rencontres se feront.
+              Il ne s&apos;agit pas de faire sans les institutions et les assistances
+              hospitalières, psychiatriques, sociales ; néanmoins, face à leur
+              délabrement, nous savons aussi qu&apos;il faut multiplier les espaces
+              intermédiaires, tampons, susceptibles de limiter cette casse
+              gouvernementale de la solidarité et du vivre-ensemble.
             </p>
+            <p className="mt-6 text-base sm:text-lg leading-8 text-gray-600">Attaché.es à ce village déjà bien vivant, nous nous sommes pris.es à imaginer sortir cet immeuble de la
+              spéculation immobilière pour y mettre en jeu, en acte, nos réflexions, envies, luttes autour de
+              l&apos;hébergement, du soin, de la santé.
+            </p>
+
           </>
         }
         image={{
@@ -80,15 +93,23 @@ export default function Home() {
         text={
           <>
             <p className="mt-6 text-base sm:text-lg leading-8 text-gray-600">
-              Nous avons fait une liste des multiples destinations possibles du lieu: hébergement avec maintien de loyers modérés, hébergements transitoires ou d&apos;urgence, refuge/repos, séjours de rupture ou de vacances parce que c&apos;est chouette de pouvoir voir la mer de temps en temps.
+              Nous sommes un noyau de quelques personnes qui ont traversé depuis plusieurs années, au cours
+              d&apos;expériences militantes, associatives et professionnelles, des espaces du médico-social, des groupes
+              d&apos;auto-défense administrative, des habitats partagés. On a participé à la construction d&apos;espaces de vie
+              collective, habité dans des lieux d&apos;accueil, travaillé dans des centres de santé... Réuni.es depuis à peine 3
+              mois par des constats communs, embarqué.es dans notre enthousiasme, confirmé.es par les messages de
+              soutien qui nous parviennent !
             </p>
-
             <p className="mt-6 text-base sm:text-lg leading-8 text-gray-600">
-              Dans les espaces communs: faire revivre l&apos;ancien bar-restaurant de Pont Menou (des cantines, un bar asso, un espace d&apos;accueil de jour où boire un café...), une buanderie qui pourrait servir collectivement, une vidéothèque médiathèque (le temps de faire sa lessive!), un jardin collectif, des ateliers cuisine, un coiffeur prix libre.
+              Un cercle d&apos;une dizaine de personnes nous aide à monter le projet, des
+              collectifs amis (dont la Dérive en voisine) l&apos;encouragent, le relaient, le facilitent.
             </p>
-
             <p className="mt-6 text-base sm:text-lg leading-8 text-gray-600">
-              Et autour des questions de santé, un espace ouvert pour nourrir nos interventions et nos réflexions sur les questions de solidarité, de soin, de santé. Un accueil de jour, un centre de santé, des cabinets pour des praticiens, un centre d&apos;info et de ressources autour de questions du soin en général, d&apos;auto-défense administrative, un lieu pour organiser des interventions au sein de l&apos;institution ou pourquoi pas une future maison de retraite...
+              Et 22 contributeur.rices réunissent déjà 110 000€ de dons et de prêts.
+            </p>
+            <p className="mt-6 text-base sm:text-lg leading-8 text-gray-600">
+              Nous sommes rejoignables, plus ou moins débordables, on ne se suffit pas à nous-mêmes, on croit
+              fermement que des rencontres se feront.
             </p>
 
           </>
@@ -149,7 +170,7 @@ export default function Home() {
       <Offers
         // reversePosition
         title="ON IMAGINE"
-        intro="1) Les destinations du 7pontmenou"
+        intro="Les destinations du 7pontmenou"
         intro2="Nous avons fait une liste des multiples destinations possibles du lieu :"
         intro3=""
         intro4=""
@@ -234,10 +255,24 @@ export default function Home() {
           </>
         }
         image={{
-          src: "/photos/step1.jpeg",
+          src: "/photos/masse.png",
           alt: "",
         }}
       />
+
+      <Image
+        src="/photos/step1.jpeg"
+        alt="{alt}"
+        width="900"
+        height="900"
+      />
+      <Image
+        src="/photos/step3.jpeg"
+        alt="{alt}"
+        width="900"
+        height="900"
+      />
+
       <Banner />
 
       <Features
@@ -246,6 +281,17 @@ export default function Home() {
         titleId="contributions"
         text={
           <>
+            {/* <div className="m-10 flex sm:flex-row flex-col items-center justify-center gap-x-4">
+              <Link
+                target="_blank"
+                rel="noopener noreferrer"
+                href={formLink}
+                className={buttonVariants({ variant: "cta", size: "xl" })}
+              >
+                <BellAlertIcon className="mr-2 h-4 w-4 sm:h-5 sm:w-5 sm:mr-3" />{" "}
+                  Promesses de dons ou de prêts
+              </Link>
+            </div> */}
             <p className="mt-6 text-base sm:text-lg leading-8 text-gray-600">
               Ce bien immobilier est en vente à un prix global de 330 000 euros. Le propriétaire propose l&apos;idée d&apos;une
               vente à terme : un premier versement de 200 000 euros suivi pendant 7 ans d&apos;un versement mensuel de
@@ -284,11 +330,10 @@ export default function Home() {
               recherchons donc encore 130 000 euros, en dons ou en prêts, de préférence remboursables au terme de la
               vente (7 ans après la date d&apos;achat) - ou pas trop rapidement après l&apos;achat.
             </p>
-
           </>
         }
         image={{
-          src: "/photos/step3.jpeg",
+          src: "/photos/pm_rue.jpeg",
           alt: "",
         }}
       />
@@ -325,9 +370,6 @@ export default function Home() {
           alt: "Pont menou satelite",
         }}
       />
-
-
-      {/* <BottomButtons /> */}
     </main>
   )
 }
