@@ -7,6 +7,34 @@ export default function Banner() {
           <h2 className="text-3xl font-bold tracking-tight text-slate-50 sm:text-4xl">
             Appel à dons et prêts ✨
           </h2>
+          <div className="m-12 text-white w-3/4 mx-auto bg-transparent rounded-lg flex justify-between border border-myGreen relative 
+          before:text-white
+          before:absolute
+          before:-top-10
+          before:content-['0']
+          after:text-white
+          after:absolute
+          after:-top-10
+          after:right-0
+          after:content-['240.000_euros']
+          ">
+            <div className="w-7/12 bg-gradient-to-r from-white to-myGreen h-8 relative 
+              after:text-white
+              after:absolute
+              after:top-10
+              after:right-0
+              after:content-['120.300_euros']
+              before:absolute
+              before:bg-red-700
+              before:h-4
+              before:w-1
+              before:border-r-red-700
+              before:-right-0
+              before:-bottom-2
+            "></div>
+            <p className="text-sm text-white px-3 text-center py-1 hyphens-none">on y est presque!</p>
+          </div>
+
         </div>
       </div>
       <svg

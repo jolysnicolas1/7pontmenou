@@ -1,4 +1,7 @@
-import { navigation } from "@/lib/utils"
+import { BellAlertIcon } from "@heroicons/react/24/outline"
+
+import { buttonVariants } from "@/components/ui/button"
+import { navigation , formLink } from "@/lib/utils"
 
 import Burger from "./Burger"
 
@@ -34,6 +37,16 @@ const Navbar = ({ isDark }: Props) => {
           ))}
         </div>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
+        </div>
+        <div className="hidden md:flex md:flex-1 md:justify-end ml-5">
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href={formLink}
+            className={buttonVariants({ variant: "outline", size: "sm" })}
+          >
+            <BellAlertIcon className="mr-2 h-4 w-4" /> Contribuer
+          </a>
         </div>
       </nav>
     </header>
