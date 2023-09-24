@@ -68,16 +68,6 @@ export default function Home() {
               Il est de plus en plus difficile de se loger à des prix modiques, il est
               de plus en plus difficile d&apos;avoir accès à des lieux de soins.
             </p>
-
-
-          </>
-        }
-        image={{
-          src: "/photos/pontmenou.png",
-          alt: "",
-        }}
-      />
-      <div className="container">
             <p className="mt-6 text-base sm:text-lg leading-8 text-gray-600">
               On sait l&apos;incurie dans laquelle sont laissées les institutions du
               médico-social aujourd&apos;hui, on sait les difficultés financières et les
@@ -94,7 +84,14 @@ export default function Home() {
               spéculation immobilière pour y mettre en jeu, en acte, nos réflexions, envies, luttes autour de
               l&apos;hébergement, du soin, de la santé.
             </p>
-      </div>
+          </>
+        }
+        image={{
+          src: "/photos/pontmenou.png",
+          alt: "",
+        }}
+      />
+      
       
       <Features
         // reversePosition
