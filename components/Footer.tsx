@@ -28,6 +28,11 @@ const Footer = () => {
             </div>
           ))}
         </nav>
+        <div className="w-full justify-center">
+          <p className="mt-6 text-base sm:text-lg leading-8 text-gray-600 self-center">
+            <a className="text-white hover:text-green-900 duration-500" href="https://iliz.org" target="_blank" rel="noopener noreferrer">Merci Élise pour les visuels</a>
+          </p>
+        </div>
         <div className="mt-10 flex justify-center space-x-10">
           {navigation.social.map(item => (
             <a

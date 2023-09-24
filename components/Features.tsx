@@ -40,7 +40,7 @@ export default function Features({
               {text}
             </div>
           </div>
-          <div className="relative pt-24">
+          <div className="relative pt-24 min-h-[30rem] md:min-h-none max-h-[25rem]">
             <Image
               fill
               objectFit="cover"

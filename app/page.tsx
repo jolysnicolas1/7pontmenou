@@ -43,7 +43,7 @@ export default function Home() {
             alt: "Le bar restaurant",
           },
           {
-            href: "/photos/trois.png",
+            href: "/photos/masse.png",
             alt: "Le projet du 7 Pont Menou",
           },
         ]}
@@ -67,6 +67,16 @@ export default function Home() {
               Il est de plus en plus difficile de se loger à des prix modiques, il est
               de plus en plus difficile d&apos;avoir accès à des lieux de soins.
             </p>
+
+
+          </>
+        }
+        image={{
+          src: "/photos/pontmenou.png",
+          alt: "",
+        }}
+      />
+      <div className="container">
             <p className="mt-6 text-base sm:text-lg leading-8 text-gray-600">
               On sait l&apos;incurie dans laquelle sont laissées les institutions du
               médico-social aujourd&apos;hui, on sait les difficultés financières et les
@@ -83,14 +93,8 @@ export default function Home() {
               spéculation immobilière pour y mettre en jeu, en acte, nos réflexions, envies, luttes autour de
               l&apos;hébergement, du soin, de la santé.
             </p>
-
-          </>
-        }
-        image={{
-          src: "/photos/pontmenou.png",
-          alt: "",
-        }}
-      />
+      </div>
+      
       <Features
         // reversePosition
         title="QUI NOUS SOMMES"
@@ -105,17 +109,18 @@ export default function Home() {
               mois par des constats communs, embarqué.es dans notre enthousiasme, confirmé.es par les messages de
               soutien qui nous parviennent !
             </p>
-            <p className="mt-6 text-base sm:text-lg leading-8 text-gray-600">
-              Un cercle d&apos;une dizaine de personnes nous aide à monter le projet, des
-              collectifs amis (dont la Dérive en voisine) l&apos;encouragent, le relaient, le facilitent.
-            </p>
-            <p className="mt-6 text-base sm:text-lg leading-8 text-gray-600">
-              Et 22 contributeur.rices réunissent déjà 110 000€ de dons et de prêts.
-            </p>
-            <p className="mt-6 text-base sm:text-lg leading-8 text-gray-600">
-              Nous sommes rejoignables, plus ou moins débordables, on ne se suffit pas à nous-mêmes, on croit
-              fermement que des rencontres se feront.
-            </p>
+        <p className="mt-6 text-base sm:text-lg leading-8 text-gray-600">
+          Un cercle d&apos;une dizaine de personnes nous aide à monter le projet, des
+          collectifs amis (dont la Dérive en voisine) l&apos;encouragent, le relaient, le facilitent.
+        </p>
+        <p className="mt-6 text-base sm:text-lg leading-8 text-gray-600">
+          Et 22 contributeur.rices réunissent déjà 110 000€ de dons et de prêts.
+        </p>
+        <p className="mt-6 text-base sm:text-lg leading-8 text-gray-600">
+          Nous sommes rejoignables, plus ou moins débordables, on ne se suffit pas à nous-mêmes, on croit
+          fermement que des rencontres se feront.
+        </p>
+
 
           </>
         }
@@ -156,9 +161,10 @@ export default function Home() {
               2) ...aujourd’hui en pleine élaboration.
             </p>
             <p className="mt-6 text-base sm:text-lg leading-8 text-gray-600">
+
               Depuis fin juin, nous nous projetons dans les possibles et les activités du 7pontmenou.
               Nous sommes à la fois dans la phase de conception et d’articulation avec les locataires actuels et
-              focalisé.es sur la date du 1er
+              focalisé.es sur la date de mise en vente du 1er
               octobre. Nous déterminons les conditions d’achat, tout en posant les
               premières pierres du projet. Pour les locataires, pour ce lieu bar-restaurant qui pourrait se réouvrir sur le
               hameau, pour ces perspectives d’espaces de réflexions, d’accueil et d’expérimentations. Quoi qu’il arrive,
@@ -167,7 +173,7 @@ export default function Home() {
           </>
         }
         image={{
-          src: "/photos/masse.png",
+          src: "/photos/facade.jpeg",
           alt: "",
         }}
       />
@@ -239,12 +245,12 @@ export default function Home() {
         text={
           <>
             <p className="mt-6 text-base sm:text-lg leading-8 text-gray-600 font-bold">
-            Les deux premières années
+            Les deux, trois premières années
             </p>
             <p className="mt-6 text-base sm:text-lg leading-8 text-gray-600">
-              Affinage du projet grâce à des rencontres avec les associations, collectifs locaux et de plus loin, autour
+              Affiner le projet grâce à des rencontres avec les associations, collectifs locaux et de plus loin, autour
               des questions d’hébergements, de soin, de santé, d’auto-défense administrative et institutionnelle.
-              Réouvertures progressives du bar-restaurant et de l’atelier annexe sous forme de stages, formations,
+              Ouvrir progressivement le bar-restaurant et l’atelier annexe sous forme de stages, formations,
               rencontres, évènements.
               Donner un aperçu d’initiatives et de luttes actuelles.
             </p>
@@ -264,7 +270,9 @@ export default function Home() {
           alt: "",
         }}
       />
-
+      <h2 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl mb-4 font-serif">
+        LES TROIS PREMIÈRES PHASES DU PROJET
+      </h2>
       <Image
         src="/photos/step1.jpeg"
         alt="{alt}"
@@ -308,7 +316,7 @@ export default function Home() {
             </p>
             <p className="mt-6 text-base sm:text-lg leading-8 text-gray-600">
               Nous réfléchissons encore aujourd&apos;hui au montage financier et à la structure juridique permettant
-              d&apos;acquérir et de faire vivre un tel lieu, les options de modèle associatif ou une SCI pour l&apos;achat sont à
+              d&apos;acquérir et de faire vivre un tel lieu, les options de modèle associatif ou d&apos;une SCI pour l&apos;achat sont à
               l&apos;étude. L&apos;idée reste en tous cas de trouver la forme la moins risquée en terme financier, la moins
               réappropriable ou déstabilisante par le retrait d&apos;une ou plusieurs personnes.
             </p>
