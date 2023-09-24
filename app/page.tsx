@@ -234,7 +234,7 @@ export default function Home() {
 
       <Features
         reversePosition
-        title="Comment on s'y projette"
+        title="COMMENT ON S'Y PROJETTE"
         titleId="l-histoire"
         text={
           <>

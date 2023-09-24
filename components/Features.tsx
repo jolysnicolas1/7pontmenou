@@ -32,7 +32,8 @@ export default function Features({
               {/* <h2 className="text-base font-semibold leading-7 text-indigo-600">Deploy faster</h2> */}
               <h2
                 id={titleId}
-                className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl font-serif"
+                className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl mb-4 font-serif"
+
               >
                 {title}
               </h2>

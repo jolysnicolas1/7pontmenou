@@ -38,7 +38,7 @@ export default function Offers({
         >
           <div>
             <h2
-              className="text-3xl font-medium tracking-tight text-gray-900 sm:text-4xl mb-4 font-serif"
+              className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl mb-4 font-serif"
             >
               {title}
             </h2>
