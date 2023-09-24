@@ -272,14 +272,14 @@ export default function Home() {
         LES TROIS PREMIÈRES PHASES DU PROJET
       </h2>
       <Image
-        src="/photos/step1.jpeg"
-        alt="{alt}"
+        src="/photos/step1_comp.jpeg"
+        alt="Schéma étape 1"
         width="900"
         height="900"
       />
       <Image
         src="/photos/step3.jpeg"
-        alt="{alt}"
+        alt="Schéma étape 3"
         width="900"
         height="900"
       />
