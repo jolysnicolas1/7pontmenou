@@ -13,7 +13,7 @@ const Navbar = ({ isDark }: Props) => {
   return (
     <header className={`fixed inset-x-0 top-0 z-50  bg-transparent`}>
       <nav
-        className="static flex items-center justify-between p-6 lg:px-8 text-center"
+        className="static flex items-center justify-between p-6 lg:px-8 text-center lg:relative"
         aria-label="Global"
       >
         <div className="flex lg:flex-1">
@@ -38,7 +38,7 @@ const Navbar = ({ isDark }: Props) => {
         </div>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
         </div>
-        <div className="hidden md:flex md:flex-1 md:justify-end ml-5">
+        <div className="hidden md:flex md:flex-1 md:justify-end ml-5 absolute left-10">
           <a
             target="_blank"
             rel="noopener noreferrer"
