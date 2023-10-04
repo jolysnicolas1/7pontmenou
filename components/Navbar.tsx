@@ -38,7 +38,7 @@ const Navbar = ({ isDark }: Props) => {
         </div>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
         </div>
-        <div className="hidden md:flex md:flex-1 md:justify-end ml-5 absolute left-10">
+        <div className="hidden xl:flex xl:flex-1 xl:justify-end ml-5 absolute right-10">
           <a
             target="_blank"
             rel="noopener noreferrer"

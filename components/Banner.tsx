@@ -16,14 +16,14 @@ export default function Banner() {
           after:absolute
           after:-top-10
           after:right-0
-          after:content-['240.000_euros']
+          after:content-['160.000_euros']
           ">
-            <div className="w-7/12 bg-gradient-to-r from-white to-myGreen h-8 relative 
+            <div className="w-10/12 bg-gradient-to-r from-white to-myGreen h-8 relative 
               after:text-white
               after:absolute
               after:top-10
               after:right-0
-              after:content-['120.300_euros']
+              after:content-['130.300_euros']
               before:absolute
               before:bg-red-700
               before:h-4
@@ -32,7 +32,6 @@ export default function Banner() {
               before:-right-0
               before:-bottom-2
             "></div>
-            <p className="text-sm text-white px-3 text-center py-1 hyphens-none">on y est presque!</p>
           </div>
 
         </div>
