@@ -1,5 +1,4 @@
 /* eslint-disable sonarjs/no-duplicate-string */
-import { BellAlertIcon } from "@heroicons/react/24/outline"
 import { PiggyBank } from "lucide-react"
 import Image from "next/image"
 import Link from "next/link"
