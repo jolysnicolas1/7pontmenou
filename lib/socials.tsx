@@ -1,4 +1,4 @@
-import { Mail, Map } from "lucide-react"
+import { Bird, Mail, Map } from "lucide-react";
 
 export const socials = [
   {
@@ -9,8 +9,14 @@ export const socials = [
   },
   {
     name: "7pontmenou@riseup.net",
-    href: "mailto:7pontmenou@riseup.et",
+    href: "mailto:7pontmenou@riseup.net",
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
     icon: (props: any) => <Mail {...props} />,
+  },
+  {
+    name: "Newsletter : 7pontmenou-subscribe@lists.riseup.net",
+    href: "mailto:7pontmenou-subscribe@lists.riseup.net",
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    icon: (props: any) => <Bird {...props} />,
   },
 ]

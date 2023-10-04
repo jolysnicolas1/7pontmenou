@@ -1,6 +1,10 @@
+import { Bird } from "lucide-react"
 import Image from "next/image"
+import Link from "next/link"
 
 import heroImg from "../public/photos/hero.jpeg"
+import { buttonVariants  } from "./ui/button"
+
 
 export default function HeroContent() {
   return (
@@ -21,11 +25,22 @@ export default function HeroContent() {
             <p className="mt-2 sm:text-2xl font-normal sm:leading-8 text-white">
             Le 7pontmenou est un immeuble dans la célèbre localité de Pont Menou, terre d&apos;aventures aux confins des Côtes-d&apos;Armor et du Finistère, port d&apos;attache et de retour d&apos;un certain nombre de personnes * en Dérive * ces dernières années.
             </p>
-            {/* <div className="opacity-90 flex flex-col md:flex-row space-x-5 bg-myGreen p-5 bg-opacity-95 text-white text-lg absolute bottom-0 w-full justify-center text-center align-center items-center">
-              <p className="px-1 text-center w-fit text-shadow">Prochaine réunion d&apos;information</p>
-              <p className="pl-1 text-center w-fit font-bold drop-shadow-lg">Lundi 25 septembre à 18 heures</p>
-              <p className="pr-5 text-center w-fit drop-shadow-lg">à la Dérive, Pont-Menou (29620)</p>
-            </div> */}
+            <div className="m-10 flex flex-col items-center justify-center gap-x-4">
+              <Link
+                target="_blank"
+                rel="noopener noreferrer"
+                href="mailto:7pontmenou-subscribe@lists.riseup.net"
+                className={`${buttonVariants({ variant: "newsletter", size: "xl" })} space-x-3`}
+
+              >
+                <Bird />
+                  <p>S&apos;inscrire à la NewsLetter</p>
+              </Link>
+              <div className="p-3">
+                <p className="text-white">Pour s&apos;inscrire, envoyer un mail (vide) à</p>
+                <p className="text-white font-bold">7pontmenou-subscribe@lists.riseup.net</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>

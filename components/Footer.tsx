@@ -29,7 +29,7 @@ const Footer = () => {
           ))}
         </nav>
         <div className="w-full justify-center">
-          <p className="mt-6 text-base sm:text-lg leading-8 text-gray-600 self-center">
+          <p className="mt-6 text-base sm:text-lg leading-8 text-gray-600 self-center flex justify-center">
             <a className="text-white hover:text-green-900 duration-500" href="https://iliz.org" target="_blank" rel="noopener noreferrer">Merci Élise pour les visuels</a>
           </p>
         </div>

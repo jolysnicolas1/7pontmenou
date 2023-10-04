@@ -1,5 +1,6 @@
 /* eslint-disable sonarjs/no-duplicate-string */
 import { BellAlertIcon } from "@heroicons/react/24/outline"
+import { PiggyBank } from "lucide-react"
 import Image from "next/image"
 import Link from "next/link"
 
@@ -299,8 +300,9 @@ export default function Home() {
                 href={formLink}
                 className={buttonVariants({ variant: "cta", size: "xl" })}
               >
-                <BellAlertIcon className="mr-2 h-4 w-4 sm:h-5 sm:w-5 sm:mr-3" />{" "}
-                  Promesses de dons ou de prêts
+                <PiggyBank className="mx-2"/>
+                <span className="inline-block align-baseline pt-1">Promesses de dons ou de prêts</span>
+
               </Link>
             </div>
             <p className="mt-6 text-base sm:text-lg leading-8 text-gray-600">

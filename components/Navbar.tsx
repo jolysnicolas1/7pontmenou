@@ -1,9 +1,10 @@
 import { BellAlertIcon } from "@heroicons/react/24/outline"
 
 import { buttonVariants } from "@/components/ui/button"
-import { formLink,navigation  } from "@/lib/utils"
+import { formLink, navigation  } from "@/lib/utils"
 
 import Burger from "./Burger"
+import { PiggyBank } from "lucide-react"
 
 type Props = {
   isDark?: boolean
@@ -45,7 +46,8 @@ const Navbar = ({ isDark }: Props) => {
             href={formLink}
             className={buttonVariants({ variant: "outline", size: "sm" })}
           >
-            <BellAlertIcon className="mr-2 h-4 w-4" /> Contribuer
+            <PiggyBank className="mx-2 align-baseline"/> 
+            <span className="inline-block align-baseline pt-1">Contribuer</span>
           </a>
         </div>
       </nav>
