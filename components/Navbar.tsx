@@ -1,8 +1,9 @@
+import { PiggyBank } from "lucide-react"
+
 import { buttonVariants } from "@/components/ui/button"
 import { formLink, navigation  } from "@/lib/utils"
 
 import Burger from "./Burger"
-import { PiggyBank } from "lucide-react"
 
 type Props = {
   isDark?: boolean
