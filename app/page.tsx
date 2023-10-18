@@ -17,6 +17,7 @@ import { formLink } from "@/lib/utils"
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between bg-gray-50 space-y-12 text-lime-950 rounded-md">
+      
       <HeroContent />
 
       <Offers
@@ -124,7 +125,7 @@ export default function Home() {
         }
         image={{
           // eslint-disable-next-line sonarjs/no-duplicate-string
-          src: "/photos/masse.png",
+          src: "/photos/facade.jpeg",
           alt: "",
         }}
       />
@@ -171,7 +172,7 @@ export default function Home() {
           </>
         }
         image={{
-          src: "/photos/facade.jpeg",
+          src: "/photos/pontmenou_contrast.png",
           alt: "",
         }}
       />
@@ -305,8 +306,8 @@ export default function Home() {
               </Link>
             </div>
             <p className="mt-6 text-base sm:text-lg leading-8 text-gray-600">
-              Ce bien immobilier est en vente à un prix global de 330 000 euros. Le propriétaire propose l&apos;idée d&apos;une
-              vente à terme : un premier versement de 200 000 euros suivi pendant 7 ans d&apos;un versement mensuel de
+              Ce bien immobilier est en vente à un prix global de 300 000 euros. Le propriétaire propose l&apos;idée d&apos;une
+              vente à terme : un premier versement de 200 000 euros suivi pendant 8 ans d&apos;un versement mensuel de
               1500 euros par mois (sachant que le montant des loyers actuels s&apos;élève à 1400 euros par mois).
             </p>
             <p className="mt-6 text-base sm:text-lg leading-8 text-gray-600">
@@ -356,7 +357,7 @@ export default function Home() {
         title="Contact"
         text={
           <>
-            <div className="space-y-6 pt-6">
+            <div className="space-y-6 pt-6 pb-24">
               {socials.map(social => (
                 <div
                   key={social.name}
