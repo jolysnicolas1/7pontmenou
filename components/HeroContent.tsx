@@ -1,9 +1,9 @@
-import { Bird } from "lucide-react"
+// import { Bird } from "lucide-react"
 import Image from "next/image"
-import Link from "next/link"
+// import Link from "next/link"
 
 import heroImg from "../public/photos/hero.jpeg"
-import { buttonVariants  } from "./ui/button"
+// import { buttonVariants  } from "./ui/button"
 
 
 export default function HeroContent() {
