@@ -44,9 +44,9 @@ export default function HeroContent() {
 
           </div>
         </div>
-        <div className="
+        {/* <div className="
           bottom-0
-          bg-myGreen
+          bg-pink-400
           w-full
           bg-opacity-70
           flex
@@ -61,7 +61,7 @@ export default function HeroContent() {
               <p className="w-fit text-white text-2xl">Le vendeur décale la mise en vente d’un mois, baisse le prix et propose un premier versement de 150 000 € pour lancer l’achat.</p>
               <p className="w-fit text-white text-2xl">La faisabilité de rachat se rapproche!</p>
             </div>
-        </div>
+        </div> */}
       </div>
     </div>
   )
