@@ -27,29 +27,21 @@ export default function Home() {
           <p className="mt-6 text-xl leading-8">
           ...Car le projet en est toujours un ! L’immeuble est encore en vente, il l’est même officiellement depuis cette fin de semaine.
           </p>
-          <div className="mt-10 max-w-2xl">
+          <div className="mt-10 max-w-2xl space-y-12">
             <p>
             Depuis septembre, les prix ont baissé : il est mis en vente chez le notaire et un agent immobilier à 330 000€. Cependant le propriétaire continue à nous proposer une remise sous la forme d’une vente à terme de 150 000€ maintenant et 150 000€ mensualisés pendant 8 ans.
             De notre côté, nous avons reçu les diagnostics et évalué les travaux à faire les années à venir. Les statuts de l&apos;association se finalisent et nous avons reçu 50 000€ de promesses de dons et des promesses de prêts auprès de 49 personnes.
             </p>
-            <ul className="mt-8 max-w-xl space-y-8 text-gray-600">
-              <li className="flex gap-x-3">
-                <span>
-                Il nous manque de quoi payer les frais de notaire pour faire une première offre d’achat : c’est à dire qu’il nous manque 25 000€ !
-                </span>
-              </li>
-              <li className="flex gap-x-3">
-                <span>
-                25 000€ de dons et/ou de prêts à moyen ou long terme (soit 3-4 minimum)… On a bien conscience que la marche est encore haute mais vu le chemin parcouru depuis juillet, telles de petit.es poucet.tes qui chourrent ses bottes de sept lieus à l’ogre spéculateur, nulle somme monstrueuse ne nous fait plus peur.
-                Nous persistons à vouloir arracher ce petit refuge pour le partager au mieux à l’avenir !
-                </span>
-              </li>
-              <li className="flex gap-x-3">
-                <span>
-                Babeth, Gaëlle, Martin, Nico, Pauline
-                </span>
-              </li>
-            </ul>
+            <p>
+            Il nous manque de quoi payer les frais de notaire pour faire une première offre d’achat : c’est à dire qu’il nous manque 25 000€ !
+            </p>
+            <p>
+            25 000€ de dons et/ou de prêts à moyen ou long terme (soit 3-4 minimum)… On a bien conscience que la marche est encore haute mais vu le chemin parcouru depuis juillet, telles de petit.es poucet.tes qui chourrent ses bottes de sept lieus à l’ogre spéculateur, nulle somme monstrueuse ne nous fait plus peur.
+            Nous persistons à vouloir arracher ce petit refuge pour le partager au mieux à l’avenir !
+            </p>
+            <p>
+            Babeth, Gaëlle, Martin, Nico, Pauline
+            </p>
           </div>
           <div className="mt-16">
             <div className="mt-4 gap-x-2 text-sm leading-6 text-gray-500">
