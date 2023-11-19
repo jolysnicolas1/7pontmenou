@@ -32,7 +32,7 @@ export default function Home() {
             Depuis septembre, les prix ont baissé : il est mis en vente chez le notaire et un agent immobilier à 330 000€. Cependant le propriétaire continue à nous proposer une remise sous la forme d’une vente à terme de 150 000€ maintenant et 150 000€ mensualisés pendant 8 ans.
             De notre côté, nous avons reçu les diagnostics et évalué les travaux à faire les années à venir. Les statuts de l&apos;association se finalisent et nous avons reçu 50 000€ de promesses de dons et des promesses de prêts auprès de 49 personnes.
             </p>
-            <ul role="list" className="mt-8 max-w-xl space-y-8 text-gray-600">
+            <ul className="mt-8 max-w-xl space-y-8 text-gray-600">
               <li className="flex gap-x-3">
                 <span>
                 Il nous manque de quoi payer les frais de notaire pour faire une première offre d’achat : c’est à dire qu’il nous manque 25 000€ !
