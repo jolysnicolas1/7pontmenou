@@ -1,5 +1,6 @@
 /* eslint-disable sonarjs/no-duplicate-string */
 import { PiggyBank } from "lucide-react"
+import { CheckCircleIcon, InformationCircleIcon } from '@heroicons/react/20/solid'
 import Image from "next/image"
 import Link from "next/link"
 
@@ -19,6 +20,47 @@ export default function Home() {
     <main className="flex min-h-screen flex-col items-center justify-between bg-gray-50 space-y-12 text-lime-950 rounded-md">
       
       <HeroContent />
+
+      <div className="bg-white px-6 py-32 lg:px-8">
+        <div className="mx-auto max-w-3xl text-base leading-7 text-gray-700">
+          <p className="text-base font-semibold leading-7 text-myGreen">10 novembre 2023</p>
+          <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Des nouvelles du projet d’achat de l’immeuble du 7 pontmenou...</h1>
+          <p className="mt-6 text-xl leading-8">
+          ...Car le projet en est toujours un ! L’immeuble est encore en vente, il l’est même officiellement depuis cette fin de semaine.
+          </p>
+          <div className="mt-10 max-w-2xl">
+            <p>
+            Depuis septembre, les prix ont baissé : il est mis en vente chez le notaire et un agent immobilier à 330 000€. Cependant le propriétaire continue à nous proposer une remise sous la forme d’une vente à terme de 150 000€ maintenant et 150 000€ mensualisés pendant 8 ans.
+            De notre côté, nous avons reçu les diagnostics et évalué les travaux à faire les années à venir. Les statuts de l'association se finalisent et nous avons reçu 50 000€ de promesses de dons et des promesses de prêts auprès de 49 personnes.
+            </p>
+            <ul role="list" className="mt-8 max-w-xl space-y-8 text-gray-600">
+              <li className="flex gap-x-3">
+                <CheckCircleIcon className="mt-1 h-5 w-5 flex-none text-myGreen" aria-hidden="true" />
+                <span>
+                Il nous manque de quoi payer les frais de notaire pour faire une première offre d’achat : c’est à dire qu’il nous manque 25 000€ !
+                </span>
+              </li>
+              <li className="flex gap-x-3">
+                <CheckCircleIcon className="mt-1 h-5 w-5 flex-none text-myGreen" aria-hidden="true" />
+                <span>
+                25 000€ de dons et/ou de prêts à moyen ou long terme (soit 3-4 minimum)… On a bien conscience que la marche est encore haute mais vu le chemin parcouru depuis juillet, telles de petit.es poucet.tes qui chourrent ses bottes de sept lieus à l’ogre spéculateur, nulle somme monstrueuse ne nous fait plus peur.
+                Nous persistons à vouloir arracher ce petit refuge pour le partager au mieux à l’avenir !
+                </span>
+              </li>
+              <li className="flex gap-x-3">
+                <span>
+                Babeth, Gaëlle, Martin, Nico, Pauline
+                </span>
+              </li>
+            </ul>
+          </div>
+          <div className="mt-16">
+            <div className="mt-4 gap-x-2 text-sm leading-6 text-gray-500">
+              Nous sommes toujours bien évidemment disponible si vous souhaitez plus d’informations sur le projet, les modalités de participations financières, sur les statuts de l’association, etc, en nous écrivant à l’adresse : <span><Link className="text-gray-600 hover:text-myGreen duration-500" href="mailto:7pontmenou@riseup.net">7pontmenou@riseup.net</Link></span>
+            </div>
+          </div>
+        </div>
+      </div>
 
       <Offers
         title="LE PROJET"
