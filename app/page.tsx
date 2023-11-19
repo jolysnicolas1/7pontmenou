@@ -1,6 +1,5 @@
 /* eslint-disable sonarjs/no-duplicate-string */
 import { PiggyBank } from "lucide-react"
-import { CheckCircleIcon, InformationCircleIcon } from '@heroicons/react/20/solid'
 import Image from "next/image"
 import Link from "next/link"
 
@@ -35,13 +34,11 @@ export default function Home() {
             </p>
             <ul role="list" className="mt-8 max-w-xl space-y-8 text-gray-600">
               <li className="flex gap-x-3">
-                <CheckCircleIcon className="mt-1 h-5 w-5 flex-none text-myGreen" aria-hidden="true" />
                 <span>
                 Il nous manque de quoi payer les frais de notaire pour faire une première offre d’achat : c’est à dire qu’il nous manque 25 000€ !
                 </span>
               </li>
               <li className="flex gap-x-3">
-                <CheckCircleIcon className="mt-1 h-5 w-5 flex-none text-myGreen" aria-hidden="true" />
                 <span>
                 25 000€ de dons et/ou de prêts à moyen ou long terme (soit 3-4 minimum)… On a bien conscience que la marche est encore haute mais vu le chemin parcouru depuis juillet, telles de petit.es poucet.tes qui chourrent ses bottes de sept lieus à l’ogre spéculateur, nulle somme monstrueuse ne nous fait plus peur.
                 Nous persistons à vouloir arracher ce petit refuge pour le partager au mieux à l’avenir !
