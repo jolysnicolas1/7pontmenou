@@ -22,7 +22,7 @@ export default function Home() {
 
       <div className="bg-white px-6 py-32 lg:px-8">
         <div className="mx-auto max-w-3xl text-base leading-7 text-gray-700">
-          <p className="text-base font-semibold leading-7 text-myGreen">10 novembre 2023</p>
+          <p className="text-2xl font-semibold leading-7 text-myGreen">20 novembre 2023</p>
           <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Des nouvelles du projet d’achat de l’immeuble du 7 pontmenou...</h1>
           <p className="mt-6 text-xl leading-8">
           ...Car le projet en est toujours un ! L’immeuble est encore en vente, il l’est même officiellement depuis cette fin de semaine.
@@ -36,7 +36,7 @@ export default function Home() {
             Il nous manque de quoi payer les frais de notaire pour faire une première offre d’achat : c’est à dire qu’il nous manque 25 000€ !
             </p>
             <p>
-            25 000€ de dons et/ou de prêts à moyen ou long terme (soit 3-4 minimum)… On a bien conscience que la marche est encore haute mais vu le chemin parcouru depuis juillet, telles de petit.es poucet.tes qui chourrent ses bottes de sept lieus à l’ogre spéculateur, nulle somme monstrueuse ne nous fait plus peur.
+            25 000€ de dons et/ou de prêts à moyen ou long terme (soit 3-4 minimum)… On a bien conscience que la marche est encore haute mais vu le chemin parcouru depuis juillet, telles de petit.es poucet.tes qui chourrent ses bottes de sept lieues à l’ogre spéculateur, nulle somme monstrueuse ne nous fait plus peur.
             Nous persistons à vouloir arracher ce petit refuge pour le partager au mieux à l’avenir !
             </p>
             <p>
@@ -45,9 +45,22 @@ export default function Home() {
           </div>
           <div className="mt-16">
             <div className="mt-4 gap-x-2 text-sm leading-6 text-gray-500">
-              Nous sommes toujours bien évidemment disponible si vous souhaitez plus d’informations sur le projet, les modalités de participations financières, sur les statuts de l’association, etc, en nous écrivant à l’adresse : <span><Link className="text-gray-600 hover:text-myGreen duration-500" href="mailto:7pontmenou@riseup.net">7pontmenou@riseup.net</Link></span>
+              Nous sommes toujours bien évidemment disponibles si vous souhaitez plus d’informations sur le projet, les modalités de participations financières, sur les statuts de l’association, etc, en nous écrivant à l’adresse : <span><Link className="text-gray-600 hover:text-myGreen duration-500" href="mailto:7pontmenou@riseup.net">7pontmenou@riseup.net</Link></span>
             </div>
           </div>
+          <div className="mt-16">
+            <div className="mt-4 gap-x-2 text-sm leading-6 text-gray-500">
+              Nous nous racontons par ailleurs un peu (de façon plus ou moins
+              réactualisées) ci-dessous.
+              C’est là également que vous trouverez le lien pour contribuer => 
+              <span><Link className="text-myGreen hover:text-gray-700 duration-500" href="https://noteforms.com/forms/achat-du-7-pont-menou-promesses-de-dons-et-de-prets-fxeixg" target= "_blank"> Contribuer au projet</Link></span>
+            </div>
+            <div className="mt-4 gap-x-2 text-sm leading-6 text-gray-500">
+              Pour s'isncrire à la liste de diffusion =>
+              <span><Link className="text-myGreen hover:text-gray-700 duration-500" href="mailto:7pontmenou-subscribe@lists.riseup.net"> Liste de diffusion</Link></span>
+            </div>
+          </div>
+
         </div>
       </div>
 
