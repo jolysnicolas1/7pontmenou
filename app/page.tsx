@@ -56,7 +56,7 @@ export default function Home() {
               <span><Link className="text-myGreen hover:text-gray-700 duration-500" href="https://noteforms.com/forms/achat-du-7-pont-menou-promesses-de-dons-et-de-prets-fxeixg" target= "_blank"> Contribuer au projet</Link></span>
             </div>
             <div className="mt-4 gap-x-2 text-sm leading-6 text-gray-500">
-              Pour s'isncrire à la liste de diffusion :
+              Pour s&apos;inscrire à la liste de diffusion :
               <span><Link className="text-myGreen hover:text-gray-700 duration-500" href="mailto:7pontmenou-subscribe@lists.riseup.net"> Liste de diffusion</Link></span>
             </div>
           </div>
