@@ -23,24 +23,16 @@ export default function HeroContent() {
               Projet d&apos;Achat du 7 Pont-Menou
             </h1>
             <p className="mt-2 sm:text-2xl font-normal sm:leading-8 text-white">
-            Le 7pontmenou est un immeuble dans la célèbre localité de Pont Menou, terre d&apos;aventures aux confins des Côtes-d&apos;Armor et du Finistère, port d&apos;attache et de retour d&apos;un certain nombre de personnes * en Dérive * ces dernières années.
+              Le 7pontmenou est un immeuble dans la célèbre localité de Pont Menou, terre d&apos;aventures aux confins des Côtes-d&apos;Armor et du Finistère, port d&apos;attache et de retour d&apos;un certain nombre de personnes * en Dérive * ces dernières années.
             </p>
-            {/* <div className="m-10 flex flex-col items-center justify-center gap-x-1 bg-pink-200 p-3">
-              <Link
-                target="_blank"
-                rel="noopener noreferrer"
-                href="mailto:7pontmenou-subscribe@lists.riseup.net"
-                className={`${buttonVariants({ variant: "newsletter", size: "xl" })} space-x-3`}
-
-              >
-                <Bird />
-                  <p>S&apos;inscrire à la NewsLetter</p>
-              </Link>
-              <div className="p-3">
-                <p className="text-white">Pour s&apos;inscrire, envoyer un mail (vide) à</p>
-                <p className="text-white font-bold">7pontmenou-subscribe@lists.riseup.net</p>
+            <div className="bottom-0 bg-pink-400 w-full bg-opacity-70 flex flex-col justify-center items-center py-5 px-12">
+              <div className="text-center flex flex-col justify-center items-center max-w-4xl space-x-3">
+                <p className="w-fit text-white font-medium uppercase text-3xl py-3">Prochaine Réunion</p>
+                <p className="w-fit text-white text-2xl">À le Dérive, Pont-Menou (29620)</p>
+                <p className="w-fit text-white text-2xl">Jeudi 22 février 2024 à 18 heures</p>
               </div>
-            </div> */}
+            </div>
+
 
           </div>
         </div>
