@@ -21,7 +21,7 @@ export default function HeroContent() {
             <p className="mt-4 sm:text-lg leading-7">
               Le 7pontmenou est un immeuble dans la célèbre localité de Pont Menou, terre d&apos;aventures aux confins des Côtes-d&apos;Armor et du Finistère, port d&apos;attache et de retour d&apos;un certain nombre de personnes * en Dérive * ces dernières années.
             </p>
-            <div className="bottom-0 bg-gray-800 bg-opacity-70 flex flex-col justify-center items-center py-5 px-24 rounded-xl">
+            <div className="w-screen px-2 bottom-0 bg-gray-800 bg-opacity-70 flex flex-col justify-center items-center py-5 px-24 rounded-xl">
               <div className="text-center flex flex-col justify-center items-center max-w-4xl space-y-4">
                 <p className="font-medium uppercase text-2xl py-3">Le 7 PontMenou à la Dérive</p>
                 <p className="text-2xl">Le 13 avril 2024</p>
@@ -44,7 +44,7 @@ export default function HeroContent() {
                 <p className="text-lg">À 20h30 écoute sonore sur l&apos;accessibilité aux soins de santé en Bretagne.</p>
                 <p className="text-lg">Vous êtes les bienvenu.es ! La soirée sera prix libre - le concert pour les musicien.nes, le repas pour le 7pontmenou et la Dérive, l&apos;écoute sonore pour la Caisse Autonome de Soins et de Santé (CASS)</p>
               </div>
-              <div className="bottom-0 flex flex-col justify-center items-center py-5 px-24 rounded-xl">
+              <div className="w-screen px-2 bottom-0 flex flex-col justify-center items-center py-5 px-24 rounded-xl">
                 <div className="text-center flex flex-col justify-center items-center max-w-4xl space-y-4 text-gray-50 pt-44">
                   <p className="font-medium uppercase text-2xl py-3">T R I O    R A ù M</p>
                   <p className="text-lg">« On s&apos;appelle RAùM. C&apos;est un peu comme si Piazzolla s&apos;était attablé avec Ligetti, qu&apos;ils s&apos;étaient amusés à refaire la bande son des Temps modernes de Chaplin, et qu&apos;entre-temps Philip Glass les avait rejoints pour boire un dernier verre, le tout dans un café d&apos;architecture Bauhaus. »</p>
