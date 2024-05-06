@@ -60,7 +60,7 @@ export default function Home() {
         text={
           <>
             <p className="mt-6 text-base sm:text-lg leading-8 text-gray-600">
-              Cette vente a été l&apos;occasion de discuter
+              Cet achat est l&apos;occasion de discuter
               du manque, en milieu rural, d&apos;espaces
               refuge, de logements d&apos;urgence, de prestations médicales, d&apos;espaces
               ressources, de transmissions et d&apos;informations quant aux
