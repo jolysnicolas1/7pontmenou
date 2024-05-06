@@ -19,10 +19,16 @@ export default function HeroContent() {
               7 Pont-Menou
             </h1>
             <p className="mt-4 sm:text-lg leading-7">
-                Le 7pontmenou est un immeuble dans la célèbre localité de Pont Menou, terre d'aventures aux confins des Côtes-d'Armor et du Finistère, port d'attache et de retour d'un certain nombre de personnes * en Dérive * ces dernières années.
+                Le 7pontmenou est un immeuble dans la célèbre localité de Pont Menou, terre d&apos;aventures aux confins des Côtes-d&apos;Armor et du Finistère, port d&apos;attache et de retour dun certain nombre de personnes * en Dérive * ces dernières années.
 
-                Le 7 Pont menou c’est aussi une asso qui achète cet immeuble et souhaite y modeler de l’habitat, du « prendre soin » et de l’accueil.
+                Le 7 Pont menou c&apos;est aussi une asso qui achète cet immeuble et souhaite y modeler de l&apos;habitat, du « prendre soin » et de l&apos;accueil.
             </p>
+            <div className="bg-white/90 rounded-full p-12 text-slate-700 border-myGreen border-2">
+              <h2>À VENIR</h2>
+              <p className="mt-4 sm:text-lg leading-7">
+              brunch projection le Dimanche 23 juin 11h00
+              </p>
+            </div>
           </div>
         </div>
       </div>
