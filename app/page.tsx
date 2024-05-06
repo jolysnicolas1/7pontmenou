@@ -21,13 +21,15 @@ export default function Home() {
       <HeroContent />
       <Offers
         title="LE PROJET"
-        intro="Il s'agit de l'ancien bar-restaurant au cœur du village et de la maison attenante, offrant 240 m2 de logements et un joli terrain arboré de 400m2, répartis en 3 habitations actuellement louées. On y trouve
-        également des espaces communs (une buanderie, un grand atelier), des locaux annexes (un local qui sert
-        de miellerie et un appentis), un joli pas de porte au carrefour du hameau, des histoires à raconter..."
+        intro="Il s'agit de l’achat de l'ancien bar-restaurant au cœur du village et de la maison attenante, offrant
+        240 m2 de logements et un joli terrain arboré de 400m2, répartis en 3 habitations actuellement
+        louées. On y trouve également des espaces communs (une buanderie, un grand atelier), des
+        locaux annexes (un local qui sert de miellerie et un appentis), un joli pas de porte au carrefour
+        du hameau, des histoires à raconter..."
         titleId="projet"
-        intro2="Le 7pontmenou sera en vente au 1er octobre..."
-        intro3="Il aiguise l'appétit des promoteurs immobiliers sur un territoire où le nombre de logements à loyers modérés fond comme les neiges des Alpes en 2023."
-        intro4="Et nous, nous aimerions bien le leur arracher."
+        intro2=""
+        intro3=""
+        intro4=""
         images={[
           {
             // eslint-disable-next-line sonarjs/no-duplicate-string
