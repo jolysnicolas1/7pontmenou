@@ -105,8 +105,7 @@ export default function Home() {
               Nous sommes un noyau de quelques personnes qui ont traversé depuis plusieurs années, au cours
               d&apos;expériences militantes, associatives et professionnelles, des espaces du médico-social, des groupes
               d&apos;auto-défense administrative, des habitats partagés. On a participé à la construction d&apos;espaces de vie
-              collective, habité dans des lieux d&apos;accueil, travaillé dans des centres de santé... Réuni.es depuis à peine 3
-              mois par des constats communs, embarqué.es dans notre enthousiasme, confirmé.es par les messages de
+              collective, habité dans des lieux d&apos;accueil, travaillé dans des centres de santé... Réuni.es par des constats communs, embarqué.es dans notre enthousiasme, confirmé.es par les messages de
               soutien qui nous parviennent !
             </p>
         <p className="mt-6 text-base sm:text-lg leading-8 text-gray-600">
@@ -114,7 +113,7 @@ export default function Home() {
           collectifs amis (dont la Dérive en voisine) l&apos;encouragent, le relaient, le facilitent.
         </p>
         <p className="mt-6 text-base sm:text-lg leading-8 text-gray-600">
-          Et 22 contributeur.rices réunissent déjà 110 000€ de dons et de prêts.
+          Et 68 contributeur.rices réunissent déjà 226000€ de dons et de prêts
         </p>
         <p className="mt-6 text-base sm:text-lg leading-8 text-gray-600">
           Nous sommes rejoignables, plus ou moins débordables, on ne se suffit pas à nous-mêmes, on croit
@@ -270,24 +269,6 @@ export default function Home() {
           alt: "",
         }}
       />
-      <h2 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl mb-4 font-serif">
-        LES TROIS PREMIÈRES PHASES DU PROJET
-      </h2>
-      <Image
-        src="/photos/step1_comp.jpeg"
-        alt="Schéma étape 1"
-        width="900"
-        height="900"
-      />
-      <Image
-        src="/photos/step3.jpeg"
-        alt="Schéma étape 3"
-        width="900"
-        height="900"
-      />
-
-      <Banner />
-
       <Features
         reversePosition
         title="INTENTIONS DE CONTRIBUTIONS"
@@ -327,22 +308,6 @@ export default function Home() {
             </p>
             <p className="mt-6 text-base sm:text-lg leading-8 text-gray-600 font-bold">
               ✨ D&apos;où cet appel ✨ !
-            </p>
-            <p className="mt-6 text-base sm:text-lg leading-8 text-gray-600">
-              Il nous faut rassembler 240 000 euros pour faire une offre : 200 000 euros pour l&apos;achat + 40 000 euros afin
-              d&apos;avoir suffisamment de trésorerie pour couvrir les premières années de dépenses liées au lieu, aux
-              remboursements des mensualités au propriétaire et des prêts des contributeurs. Cette part de trésorerie
-              nous laissera le temps d&apos;engager les activités du collectif et de pouvoir monter des dossiers de subventions
-              de fondations et de collectivités.
-            </p>
-            <p className="mt-6 text-base sm:text-lg leading-8 text-gray-600">
-              Actuellement nous en sommes à des promesses de plus de 50 000 euros de dons et 60 000 euros de prêts
-              auprès d&apos;un petit cercle de personnes, issu du collectif ou ayant réagit aux premières annonces du projet.
-            </p>
-            <p className="mt-6 text-base sm:text-lg leading-8 text-gray-600">
-              Pour pouvoir faire une offre d&apos;achat dans les meilleurs délais – mise en vente le 1 Octobre – nous
-              recherchons donc encore 130 000 euros, en dons ou en prêts, de préférence remboursables au terme de la
-              vente (7 ans après la date d&apos;achat) - ou pas trop rapidement après l&apos;achat.
             </p>
           </>
         }
