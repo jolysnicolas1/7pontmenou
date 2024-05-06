@@ -1,9 +1,7 @@
 /* eslint-disable sonarjs/no-duplicate-string */
 import { PiggyBank } from "lucide-react"
-import Image from "next/image"
 import Link from "next/link"
 
-import Banner from "@/components/Banner"
 import Features from "@/components/Features"
 import HeroContent from "@/components/HeroContent"
 import Offers from "@/components/Offers"
