@@ -19,69 +19,6 @@ export default function Home() {
     <main className="flex min-h-screen flex-col items-center justify-between bg-gray-50 space-y-12 text-lime-950 rounded-md">
       
       <HeroContent />
-
-      <div className="bg-white px-6 py-32 lg:px-8">
-  <div className="mx-auto max-w-3xl text-base leading-7 text-gray-700">
-    <p className="text-2xl font-semibold leading-7 text-myGreen">09 janvier 2024</p>
-    <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Compte-rendu télégraphié depuis la rencontre autour du 7pontmenou</h1>
-    <p className="mt-6 text-xl leading-8">
-      Nous avions conviés les contributeur.ices et sympathisant.es du projet ainsi que les personnes sur la liste interne de la Dérive et les habitant.es à nous rejoindre de 18 à 20h pour se rencontrer et échanger sur les prochaines étapes.
-    </p>
-    <p>
-      Nous étions plus de 30 réuni.es, déjà <strong>merci de vos présences !</strong> Merci également à celles et ceux qui nous avait envoyé et transmis des messages.
-    </p>
-    <p>
-      Nous avons commencé par un tour de table pour percevoir ce qui résonnait en chacun.e dans ce projet. <strong>Les questions de maintien de logements / possibilités d’hébergement, les questions de lien social et de soin/santé globale résonnent.</strong> La complémentarité-continuité avec le projet initial de la Dérive. C’était bon de sentir le <strong>soutien et l’enthousiasme.</strong>
-    </p>
-    <p>
-      Précisions sur le projet collectif : il nous apparaît encore <strong>flou dans sa matérialisation concrète</strong> (quelles activités ?), et parce que les contours des possibles ont de multiples variables et parce que jusqu’à présent notre petit collectif s’est concentré sur les questions de formes, pour avoir les moyens d’acheter. Ce qui nous réunit c’est des <strong>rêves plus grands que nous</strong>, et comment nos rencontres créent plus que l’addition de nos complémentarités !
-      Dans les idées citées : une <strong>laverie-cinémathèque-kiosque-infos</strong>, rouvrir le bar-resto régulièrement.
-    </p>
-    <p>
-      Précisions sur la structure : nous avons choisi la <strong>forme associative</strong> pour sa simplicité et souplesse, les statuts vont être déposés prochainement, après conseils avisés (résam, avocat, C.L.I.P.), fonds sous forme de contrats d’apports associatifs avec et sans droit de reprise grâce aux contributeur.ices
-    </p>
-    <p>
-      Précisions sur le lieu : 3 logements actuellement en location (2 appartements et une partie maison avec 2 chambres, soit 6 habitant.es. (cf plan du lieu) Question des espaces disponibles pour les activités de l’association, en lien avec les habitant.es : rez-de-chaussée de l’immeuble avec l’actuel atelier + buanderie (environ 70m2) à court terme. Possibilité d’envisager des travaux pour intégrer la partie bar-restaurant + sanitaires à cet espace en réaménageant un espace cuisine pour le logement dans la partie maison à moyen terme. Possibilité d’envisager dès maintenant un espace-cabinet de soin dans un des appartements.
-    </p>
-    <p>
-      Côté travaux, les bâtiments sont globalement <strong>sains</strong>, sans gros travaux urgents à prévoir. Les différents artisan.es ayant été sollicités estiment une enveloppe de <strong>40 000 euros</strong> à prévoir dans les 5 à 10 ans pour le remplacement d’ouvrants et une partie de la toiture de l’ancien bar-restaurant.
-      Les bilans énergétiques situent les différents espaces entre <strong>C et E</strong> et ne relèvent aucun vice.
-    </p>
-    <p>
-      Précisions sur le montage financier : actuellement à <strong>15 000 euros</strong> de pouvoir faire une offre à 270 000 au vendeur, avec le principe de la vente à terme : <strong>160 000 à l’achat</strong> puis <strong>110 000 en mensualités sur 8 ans.</strong> (+Les frais de notaires qui sont de <strong>25 000 euros.</strong>) Taxes 1600/an, loyers actuels : 1400/mois Nous aurions à rembourser <strong>38500 euros au bout de 4/5 ans</strong> et <strong>78500 à 8 ans,</strong> lissé sur les 8 ans cela fait <strong>16000 à 20000 euros par an à trouver.</strong> (en plus des loyers).
-    </p>
-    <p>
-      Précisions humaines : nous étions 4 : <strong>Babeth, Gaëlle, Martin et Pauline</strong> à recevoir vos mots, impressions, questions. C’était la première fois que nous « présentions » le projet et nous avons pu à certains endroits nous sentir un peu fébriles, peut-être aussi n’avons nous pas eu l’impression de transmettre toutes les informations que nous aurions aimé transmettre. Mais c’était bon de sentir que vous étiez là et avoir vos retours !
-    </p>
-    <p>
-      Alors pour répondre à cette question : qu’est ce qui vous manque là pour faire une offre ?
-    </p>
-    <ul>
-      <li>Sentir le <strong>soutien pour faire vivre le projet, les coups de main, les engagements sur certaines thématiques, au-delà des moyens financiers, les moyens humains</strong></li>
-      <li>S’assurer des <strong>quelques deniers de plus pour pouvoir faire cette offre au propriétaire</strong></li>
-      <li>Ce qu’on a déjà : la <strong>confiance que ça vaut la peine d’être vécu, dans les pires scénarios, le « risque » est maîtrisé, la vente à terme nous permet de revendre tout ou partie pour rembourser les prêts.</strong></li>
-      <li>La <strong>confiance que certain.es nous rejoignent incessamment, que le projet trouvera du soutien plus large, dans les cercles dans lesquels il s’inscrit, dans le terreau de la Dérive, tout en ouvrant les perspectives</strong></li>
-    </ul>
-    <div className="mt-16">
-      <div className="mt-4 gap-x-2 text-sm leading-6 text-gray-500">
-        Nous sommes toujours bien évidemment disponibles si vous souhaitez plus d’informations sur le projet, les modalités de participations financières, sur les statuts de l’association, etc, en nous écrivant à l’adresse : <span><a className="text-gray-600 hover:text-myGreen duration-500" href="mailto:7pontmenou@riseup.net">7pontmenou@riseup.net</a></span>
-      </div>
-    </div>
-    <div className="mt-16">
-      <div className="mt-4 gap-x-2 text-sm leading-6 text-gray-500">
-        Nous nous racontons par ailleurs un peu (de façon plus ou moins réactualisées) ci-dessous.
-        C’est là également que vous trouverez le lien pour contribuer : 
-        <span><a className="text-myGreen hover:text-gray-700 duration-500" href="https://noteforms.com/forms/achat-du-7-pont-menou-promesses-de-dons-et-de-prets-fxeixg" target= "_blank"> Contribuer au projet</a></span>
-      </div>
-      <div className="mt-4 gap-x-2 text-sm leading-6 text-gray-500">
-        Pour s&apos;inscrire à la liste de diffusion :
-        <span><a className="text-myGreen hover:text-gray-700 duration-500" href="mailto:7pontmenou-subscribe@lists.riseup.net"> Liste de diffusion</a></span>
-      </div>
-    </div>
-  </div>
-</div>
-
-
       <Offers
         title="LE PROJET"
         intro="Il s'agit de l'ancien bar-restaurant au cœur du village et de la maison attenante, offrant 240 m2 de logements et un joli terrain arboré de 400m2, répartis en 3 habitations actuellement louées. On y trouve
