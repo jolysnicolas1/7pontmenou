@@ -1,16 +1,8 @@
 /* eslint-disable sonarjs/no-duplicate-string */
-import { PiggyBank } from "lucide-react"
-import Link from "next/link"
-
 import Features from "@/components/Features"
 import HeroContent from "@/components/HeroContent"
 import Offers from "@/components/Offers"
-import { buttonVariants } from "@/components/ui/button"
 import { socials } from "@/lib/socials"
-import { formLink } from "@/lib/utils"
-
-
-
 
 export default function Home() {
   return (
@@ -159,13 +151,11 @@ export default function Home() {
             </p>
             <p className="mt-6 text-base sm:text-lg leading-8 text-gray-600">
 
-              Depuis fin juin, nous nous projetons dans les possibles et les activités du 7pontmenou.
-              Nous sommes à la fois dans la phase de conception et d’articulation avec les locataires actuels et
-              focalisé.es sur la date de mise en vente du 1er
-              octobre. Nous déterminons les conditions d’achat, tout en posant les
-              premières pierres du projet. Pour les locataires, pour ce lieu bar-restaurant qui pourrait se réouvrir sur le
-              hameau, pour ces perspectives d’espaces de réflexions, d’accueil et d’expérimentations. Quoi qu’il arrive,
-              nous pressentons que la graine est semée : et nous la déploierons ici ou ailleurs !
+            Depuis juin 2023, nous nous projetons dans les possibles et les activités du 7pontmenou.
+            Aujourd&apos;hui, nous posons les premières pierres du projet pour les locataires actuels, pour ce lieu
+            bar-restaurant qui pourra s&apos;ouvrir à nouveau sur le hameau, pour ces perspectives d&apos;espaces de
+
+            réflexions, d’accueil et d’expérimentations.
             </p>
           </>
         }
@@ -264,53 +254,6 @@ export default function Home() {
         }
         image={{
           src: "/photos/masse.png",
-          alt: "",
-        }}
-      />
-      <Features
-        reversePosition
-        title="INTENTIONS DE CONTRIBUTIONS"
-        titleId="contributions"
-        text={
-          <>
-            <div className="m-10 flex sm:flex-row flex-col items-center justify-center gap-x-4">
-              <Link
-                target="_blank"
-                rel="noopener noreferrer"
-                href={formLink}
-                className={buttonVariants({ variant: "cta", size: "xl" })}
-              >
-                <PiggyBank className="mx-2"/>
-                <span className="inline-block align-baseline pt-1">Promesses de dons ou de prêts</span>
-
-              </Link>
-            </div>
-            <p className="mt-6 text-base sm:text-lg leading-8 text-gray-600">
-              Ce bien immobilier est en vente à un prix global de 300 000 euros. Le propriétaire propose l&apos;idée d&apos;une
-              vente à terme : un premier versement de 200 000 euros suivi pendant 8 ans d&apos;un versement mensuel de
-              1500 euros par mois (sachant que le montant des loyers actuels s&apos;élève à 1400 euros par mois).
-            </p>
-            <p className="mt-6 text-base sm:text-lg leading-8 text-gray-600">
-              Nous avons eu bien peu de temps, depuis fin juin, pour réagir à l&apos;annonce de la vente, créer un collectif,
-              dessiner un projet.
-            </p>
-            <p className="mt-6 text-base sm:text-lg leading-8 text-gray-600">
-              Nous réfléchissons encore aujourd&apos;hui au montage financier et à la structure juridique permettant
-              d&apos;acquérir et de faire vivre un tel lieu, les options de modèle associatif ou d&apos;une SCI pour l&apos;achat sont à
-              l&apos;étude. L&apos;idée reste en tous cas de trouver la forme la moins risquée en terme financier, la moins
-              réappropriable ou déstabilisante par le retrait d&apos;une ou plusieurs personnes.
-            </p>
-            <p className="mt-6 text-base sm:text-lg leading-8 text-gray-600">
-              Quelle que soit la forme juridique que prendrait le collectif d&apos;achat, nous devrons compter sur des dons et
-              des prêts.
-            </p>
-            <p className="mt-6 text-base sm:text-lg leading-8 text-gray-600 font-bold">
-              ✨ D&apos;où cet appel ✨ !
-            </p>
-          </>
-        }
-        image={{
-          src: "/photos/pm_rue.jpeg",
           alt: "",
         }}
       />
