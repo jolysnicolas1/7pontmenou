@@ -11,7 +11,6 @@ export const navigation = [
   { name: "Qui nous sommes", href: "#qui-nous-sommes" },
   { name: "L'histoire", href: "#l-histoire" },
   { name: "On imagine", href: "#on-imagine" },
-  { name: "Contributions", href: "#contributions" },
   { name: "Contact", href: "#contact" },
 ]
 

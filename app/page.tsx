@@ -265,6 +265,11 @@ export default function Home() {
         text={
           <>
             <div className="space-y-6 pt-6 pb-24">
+              <div className="italic">
+                Nous sommes rejoignables, plus ou moins débordables, on ne se suffit pas à nous-mêmes, on
+                croit fermement que des rencontres se feront.
+                Il aussi est toujours possible de contribuer financièrement au projet.
+              </div>
               {socials.map(social => (
                 <div
                   key={social.name}
