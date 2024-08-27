@@ -25,7 +25,7 @@ export default function HeroContent() {
               <h2 className="text-2xl  text-start">AGENDA</h2>
               <div className="flex flex-col lg:flex-row gap-5">
                 <div className="flex flex-col text-start gap-3 border shadow rounded p-5 bg-gray-50 text-gray-700">
-                    <h3 className="text-lg font-medium text-gray-500">AG de l'association du 7Pontmenou</h3>
+                    <h3 className="text-lg font-medium text-gray-500">AG de l&apos;association du 7Pontmenou</h3>
                   <p className="flex align-baseline gap-2">
                     <CalendarDaysIcon
                       className="h-6 w-6"
