@@ -9,6 +9,31 @@ export default function Home() {
     <main className="flex min-h-screen flex-col items-center justify-between bg-gray-50 space-y-12 text-lime-950 rounded-md">
       
       <HeroContent />
+      <div className="flex flex-col text-center max-w-5xl">
+        <h3 className="text-gray-500 font-medium text-xl m-3">Bonjour à toustes !</h3>
+        <p className="text-lg text-red-500">Voici la nouvelle que nous vous promettions depuis quelques semaines</p>
+        <p className="text-lg text-red-500">Le compromis de vente est entre nos mains. Nous avons signé le 22 août !</p>
+        <p className="text-2xl font-medium text-amber-500 m-5">Merci à toustes pour votre soutien !!!</p>
+        <p className="text-gray-700 m-1 text-amber-500">Cette première étape de l&apos;achat touche à sa fin un an après notre premier mail
+          qui invitait, sur la liste de diffusion de la Dérive, à penser comment
+          inventer un projet à Pont Menou, autour des questions de logement, de
+          santé et de soin collectif. Nous en sommes ravi•e•s !
+        </p>
+        <p className="text-gray-700 m-1 text-green-500">
+        En un an, nous avons donc réuni 52000€ de dons et 170 000€ de prêts (à
+          court et long terme).
+        </p>
+        <p className="text-gray-700 m-1 text-green-500">
+        La réflexion autour de nos activités tourne à plein. Les festivités commencent, l&apos;administratif continue, il y a encore beaucoup à rêver !
+        </p>
+        <p className="text-gray-700 m-1 text-sky-500">
+        La vie de l&apos;association est toujours rejoignable ! Il y a de la place pour vos envies, vos initiatives, vos propositions.
+        </p>
+        <p className="text-gray-700 m-1 text-sky-500">
+        Voilà pourquoi nous vous proposons de nous retrouver avant chacune de nos réunions - quasi - hebdomadaires.
+        Si vous nous prévenez, il est possible de venir 1h avant pour avoir le temps de vous accueillir.
+        </p>
+      </div>
       <Offers
         title="LE PROJET"
         intro="Il s'agit de l’achat de l'ancien bar-restaurant au cœur du village et de la maison attenante, offrant

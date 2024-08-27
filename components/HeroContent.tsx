@@ -1,3 +1,6 @@
+import {
+  CalendarDaysIcon, MapPinIcon
+} from "@heroicons/react/24/outline"
 import Image from "next/image"
 
 import heroImg from "../public/photos/hero.jpeg"
@@ -18,6 +21,47 @@ export default function HeroContent() {
             <h1 className="uppercase font-pitch font-bold tracking-[0.085em] text-2xl sm:text-4xl md:text-5xl">
               7 Pont-Menou
             </h1>
+            <div className="bg-myGreen w-full max-w-7xl flex flex-col bg-opacity-70 p-8 m-8 border border-white gap-5">
+              <h2 className="text-2xl  text-start">AGENDA</h2>
+              <div className="flex flex-col lg:flex-row gap-5">
+                <div className="flex flex-col text-start gap-3 border shadow rounded p-5 bg-gray-50 text-gray-700">
+                    <h3 className="text-lg font-medium text-gray-500">AG de l'association du 7Pontmenou</h3>
+                  <p className="flex align-baseline gap-2">
+                    <CalendarDaysIcon
+                      className="h-6 w-6"
+                      aria-hidden="true"
+                    />
+                    Vendredi 20 septembre, le soir
+                  </p>
+                  <p className="flex align-baseline gap-2">
+                    <MapPinIcon
+                      className="h-6 w-6"
+                      aria-hidden="true"
+                    />
+                    à la Dérive
+                  </p>
+                  <p></p>
+                </div>
+                <div className="flex flex-col text-start gap-3 border shadow rounded p-5 bg-gray-50 text-gray-700">
+                  <h3 className="text-lg font-medium text-gray-500">Fête de soutien</h3>
+                  <p className="flex align-baseline gap-2">
+                    <CalendarDaysIcon
+                      className="h-6 w-6"
+                      aria-hidden="true"
+                    />
+                    Samedi 19 octobre, le soir
+                  </p>
+                  <p className="flex align-baseline gap-2">
+                    <MapPinIcon
+                      className="h-6 w-6"
+                      aria-hidden="true"
+                    />
+                    à la Dérive
+                  </p>
+                  <p></p>
+                </div>
+              </div>
+            </div>
             <p className="mt-4 sm:text-lg leading-7 max-w-7xl">
                 Le 7pontmenou est un immeuble dans la célèbre localité de Pont Menou, terre d&apos;aventures aux confins des Côtes-d&apos;Armor et du Finistère, port d&apos;attache et de retour dun certain nombre de personnes * en Dérive * ces dernières années.
 
